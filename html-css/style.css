@@ -1,0 +1,19 @@
+.top {
+    padding-left: 129px;
+    padding-right: 186px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 {
+    width: 112px;
+    height: 66px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
