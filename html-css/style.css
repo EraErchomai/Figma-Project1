@@ -259,13 +259,21 @@ h2 {
 
 .contact-info{
     margin-top: 11px;
+    margin-right: 185px;
+    width: 230px;
 }
-
 
 .contact-info2{
     margin-top: 0px;
+    width: 269px;
+    padding-right: 146;
 }
 
+.media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
 .img2 {
     margin-bottom: 30px;
@@ -283,14 +291,12 @@ h2 {
     margin-right: 25px;
 }
 
-.social {
-    padding-right: 18px;
-}
-
 .bottom {
     margin-top: 147px;
+    margin-bottom: 23px;
     font-weight: 400;
     font-size: 18px;
+    width: 230px;
 }
 /* #endregion */
  
