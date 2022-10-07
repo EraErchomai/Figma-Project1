@@ -17,3 +17,44 @@
     display: flex;
     flex-direction: column;
 }
+
+.eight {
+    width: 1440px;
+    height: 390px;
+    background: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.sinx {
+    margin-left: 122px;
+    margin-top: 50px;
+}
+
+.img2 {
+    margin-bottom:  30px;
+}
+
+.social {   
+    padding-right: 18px;
+}
+
+.bottom {
+    margin-top: 147px;
+}
+
+.contacts {
+    margin-left: 656px;
+    margin-top: 54px;
+}
+
+.contactimg {
+    margin-right: 22px;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+
