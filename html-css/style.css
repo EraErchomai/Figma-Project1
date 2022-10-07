@@ -43,6 +43,12 @@ body {
     font-weight: 400;
 }
 
+.format{
+    font-weight: 700;
+    font-size: 55px;
+    
+    
+}
 .sec-title{
     font-weight: 700;
     font-size: 25px;
@@ -51,11 +57,6 @@ body {
 .sec-txt{
     font-weight: 400;
     font-size: 18px;
-}
-
-.format{
-    font-weight: 700;
-    font-size: 55px;
 }
 
 .only-list{
@@ -182,3 +183,5 @@ h2 {
     font-weight: 400;
     font-size: 80px;
 }
+
+
