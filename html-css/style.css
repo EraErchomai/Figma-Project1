@@ -48,17 +48,34 @@ body {
 .format{
     font-weight: 700;
     font-size: 55px;
-    
-    
+    margin-left: 121px;
 }
+
+#vebdosobsh {
+    margin-top: 89px;
+    margin-left: 122px;
+}
+
+#dostup {
+    margin-left: 195px;
+}
+
+#obweniye {
+    margin-top: 89px;
+    margin-left: 170px;
+}
+
 .sec-title{
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 25px;
+    color: #1E4681;
 }
 
 .sec-txt{
     font-weight: 400;
     font-size: 18px;
+    margin-left: 122px;
 }
 
 .only-list{
