@@ -13,6 +13,71 @@ body {
     padding-top: 21px;
 }
 
+.za{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.kak{
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.zritel{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.andrey{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.okurse{
+    font-weight: 700;
+    font-size: 55px;    
+}
+
+.poroy{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sec-title{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.sec-txt{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.format{
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.only-list{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.five-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.five-txt{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.kurs{
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .globe{
     margin-right: 8px;
     /* margin-bottom: 15px; */
