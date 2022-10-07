@@ -15,25 +15,26 @@ body {
 
 .globe{
     margin-right: 8px;
-    margin-top: 1px;
-    
+    /* margin-bottom: 15px; */
 }
 
 .clock{
     margin-left: 25px;
-    margin-right: 10px;   
+    margin-right: 10px; 
+    /* margin-bottom: 14px;   */
 }
 
 .calendar{
     margin-right: 13px;
+    margin-left: 0;
 }
 
 .course-info{
-    height: 32px;
-    width: 130px;
     font-size: 20px;
-    margin: 0px;
-    margin-top: 3px;
+    font-weight: 400;
+    padding: 0;
+    margin: 3px 0 0 0;
+
 }
 
 .top {
@@ -44,7 +45,7 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    margin-top: 97px;   
+    margin-top: 96px;   
     padding: 0px;
 }
 
