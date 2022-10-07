@@ -2,14 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    font-family: Roboto Slab;
-    margin: 0;
-    padding-top: 21px;
+    font-family: Roboto;
+    margin: 0px;
+    padding-top: 21px;        
+}
+
+p{
+    vertical-align: top;
+    text-align: left;
 }
 
 .main {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .top {
@@ -50,6 +55,7 @@ body {
 .kak{
     font-weight: 700;
     font-size: 80px;
+    font-family: Roboto Slab;
 }
 
 .za{
@@ -60,6 +66,7 @@ body {
 .zritel{
     font-weight: 400;
     font-size: 25px;
+    font-family: Roboto Slab;
 }
 
 .andrey{
@@ -71,7 +78,8 @@ body {
 /* #region Div-2-3-4 */
 .okurse{
     font-weight: 700;
-    font-size: 55px;    
+    font-size: 55px;  
+    font-family: Roboto Slab; 
 }
 
 .poroy{
@@ -96,6 +104,7 @@ body {
     font-weight: 700;
     font-size: 55px;
     margin-left: 121px;
+    font-family: Roboto Slab;
 }
 
 #vebdosobsh {
@@ -135,6 +144,13 @@ body {
     font-weight: 400;
     font-size: 20px;
 }
+
+.ekaterina{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Roboto Slab;
+}
+
 /* #endregion */
 
 /* #region Div-7 */
@@ -146,20 +162,58 @@ body {
     padding-top: 179px;
 }
 
+.description-7{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;    
+}
+
 h2 {
     font-weight: 700;
     font-size: 55px;
+    margin: 0px;
 }
 
 .stoimost {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 25px;
+    margin-top: 54px;    
+    margin-bottom: 0px;
+}
+
+.description-b2{
+    margin-right: 660px;
+}
+
+.description-b1{
+    margin-right: 70px;
 }
 
 .price {
     font-weight: 400;
     font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 155px;
+}
+
+.nachalo{
+    font-weight: 700;
+    font-size: 55px;
+    font-family: Roboto Slab;
+}
+
+.seven-small-title{    
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+.seven-small-txt{
+    font-weight: 400;
+    font-size: 18px;
 }
 /* #endregion */
 
@@ -168,7 +222,7 @@ h2 {
     width: 100%;
     height: 390px;
     background: #000000;
-    color: white;
+    color: white;    
     display: flex;
     flex-direction: row;
 }
@@ -183,18 +237,38 @@ h2 {
     margin-top: 54px;
 }
 
-.contactimg {
+.contactimg1 {
     margin-right: 22px;
+    height: 27px;
+    margin-bottom: 25px;
+    width: 27px;    
+}
+
+
+.contactimg2 {
+    margin-right: 22px;
+    height: 18px;
+    width: 27px;    
 }
 
 .contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
+    margin-bottom: 3px;
 }
+
+.contact-info{
+    margin-top: 11px;
+}
+
+
+.contact-info2{
+    margin-top: 0px;
+}
+
 
 .img2 {
     margin-bottom: 30px;
-    margin-top: 50px;
 }
 
 .social-insta{
@@ -215,14 +289,20 @@ h2 {
 
 .bottom {
     margin-top: 147px;
+    font-weight: 400;
+    font-size: 18px;
 }
 /* #endregion */
  
 
 /* #region Tablet */
-@media screen and (min-width: 992px) and (max-width: 1279px) {}
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+
+}
 /* #endregion */
 
 /* #region Mobile */
-@media screen and (min-width: 320px) and (max-width: 991px) {}
+@media screen and (min-width: 320px) and (max-width: 991px) {
+
+}
 /* #endregion */
