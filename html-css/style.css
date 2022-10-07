@@ -1,18 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 /* tablet */
-@media screen and (min-width: 992px) and (max-width: 1279px) {
-
-}
+@media screen and (min-width: 992px) and (max-width: 1279px) {}
 
 /* mobile */
-@media screen and (min-width: 320px) and (max-width: 991px) {
-
-}
+@media screen and (min-width: 320px) and (max-width: 991px) {}
 
 body {
     font-family: Roboto;
     margin: 0;
+    padding-top: 21px;
+}
+
+.globe{
+    margin-right: 8px;
+    margin-top: 1px;
+    
+}
+
+.clock{
+    margin-left: 25px;
+    margin-right: 10px;   
+}
+
+.calendar{
+    margin-right: 13px;
+}
+
+.course-info{
+    height: 32px;
+    width: 130px;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 3px;
 }
 
 .top {
@@ -23,6 +43,8 @@ body {
 .header {
     display: flex;
     flex-direction: row;
+    margin-top: 97px;   
+    padding: 0px;
 }
 
 .main {
@@ -46,10 +68,10 @@ body {
 }
 
 .img2 {
-    margin-bottom:  30px;
+    margin-bottom: 30px;
 }
 
-.social {   
+.social {
     padding-right: 18px;
 }
 
@@ -65,9 +87,9 @@ body {
 .contactimg {
     margin-right: 22px;
 }
+
 .contact {
     display: flex;
     flex-direction: row;
 }
-
 
