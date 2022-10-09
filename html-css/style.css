@@ -4,12 +4,7 @@
 body {
     font-family: Roboto;
     margin: 0px;
-    padding-top: 21px;        
-}
-
-p{
-    vertical-align: top;
-    text-align: left;
+    padding-top: 21px;  
 }
 
 .main {
@@ -18,8 +13,7 @@ p{
 }
 
 .top {
-    padding-left: 129px;
-    padding-right: 186px;
+    padding-left: 121px;
 }
 
 /* #region Div-1 */
@@ -35,7 +29,7 @@ p{
 }
 
 .clock{
-    margin-left: 25px;
+    margin-left: 39px;
     margin-right: 10px; 
 }
 
@@ -48,23 +42,24 @@ p{
     font-size: 20px;
     font-weight: 400;
     padding: 0;
-    margin: 3px 0 0 0;
-
+    margin: 3px 0 0;
 }
 
 .title-side {
     display: flex;
     flex-direction: row;
+    margin-left: 1px;
 }
 
-.kak{
+h1 {
     font-weight: 700;
     font-size: 80px;
     font-family: Roboto Slab;
     width: 628px;
     height: 190px;
     margin-bottom: 0;
-    line-height: 81px;
+    line-height: 101.38%;
+    margin-top: 43px;
 }
 
 .za{
@@ -72,11 +67,22 @@ p{
     font-size: 20px;
     width: 414px;
     height: 62px;
-    line-height: 30px;
+    line-height: 150%;
+    margin-top: -11px;
+}
+
+.side-ellipse {
+    position: relative;
 }
 
 .side1 {
     margin-left: 140px;
+    position: absolute;
+}
+
+.ellipse1 {
+    margin-left: 171px;
+    margin-top: 335px;
 }
 
 .block {
@@ -84,11 +90,11 @@ p{
     height: 180.74px;
     background: #1E4681;
     border-radius: 5px;
-    margin-left: 289.39px;
+    margin-left: 288.39px;
     padding-top: 19.26px;
     padding-left: 26.03px;
-    margin-top: 177.62px;
-    margin-bottom: 173.38px;
+    margin-top: 87.62px;
+    margin-bottom: 173.36px;
 }
 
 .zritel{
@@ -108,56 +114,82 @@ p{
     color: white;
     width: 280.5px;
     height: 45.64px;
-    margin: 22.12px 0 0 248.58px;
+    margin: 22.12px 0 0 158.58px;
+    text-align: right;
+    font-family: Roboto Slab;
 }
 /* #endregion */
 
 /* #region Div-2-3-4 */
-.okurse{
+h2 {
     font-weight: 700;
-    font-size: 55px;  
+    font-size: 55px;
     font-family: Roboto Slab; 
+    margin: 0;
+}
+
+.okurse{ 
     width: 365px;
     height: 93px;
-    margin-bottom: 18px;
 }
 
-.poroy{
+.two-p {
+    line-height: 150%;
     font-weight: 400;
     font-size: 24px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    line-height: 36px;
+    width: 662px;
 }
 
-.poroy2{
-    font-weight: 400;
-    font-size: 24px;
-    margin-bottom: 0px;
-    line-height: 36px;
+.poroy{   
+    margin: 0 0 53px 0;
+}
+
+.na {
+    margin: 0;
 }
 
 .two-top {
     display: flex;
-    flex-direction: row;
+    margin-top: 18px;
 }
+
 .two-txt {
-    width: 662px;
     height: 374px;
     box-sizing: content-box;
 }
 
+.side2-ellipse {
+    position: relative;
+}
+
 .side2 {
     margin-left: 190px;
-    margin-bottom: 46px;
-    margin-top: 24px;
+    position: absolute;
+    top: 24px;
+}
+
+.ellipse2 {
+    margin-left: 164px;
+    margin-top: 309px;
 }
 
 .two-bottom {
     display: flex;
     flex-direction: row;
     margin-top: 94px;
-    height: 203px;
+}
+
+.two-div-img-2 {
+    position: relative;
+}
+
+.side3 {
+    position: absolute;
+}
+
+.ellipse3 {
+    margin-top: 187px;
+    margin-left: 33px;
 }
 
 .two-bottom p{
@@ -172,6 +204,20 @@ p{
     margin-left: 132px;
 }
 
+.sec-txt{
+    font-weight: 400;
+    font-size: 18px;    
+    margin: 0;
+    line-height: 23px;
+}
+
+.sec-title{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px;
+    line-height: 32px;
+}
+
 .two-txt-1{
     margin-right: 95px;
 }
@@ -179,11 +225,8 @@ p{
 /* -----------------------------Zaur's part----------------------------------- */
 /* -----------------------------Zaur's part----------------------------------- */
 
-.format{
-    font-weight: 700;
-    font-size: 55px;    
-    margin-top: 178px;
-    font-family: Roboto Slab;
+.format{    
+    margin-top: 162px;
     height: 93px;
     width: 667px;    
 }
@@ -204,33 +247,10 @@ p{
     margin-top: 0px;
 }
 
-.vebinars {
-    display: flex;
-    font-size: 18px;
-    font-weight: 400;
-    width: 223px;
-    color: black;
-    margin-top: 10px;
-}
-
-.three{
-    margin-bottom: 179px;
-    height: 331px;
-}
-
 #dosnav {
     width: 214px;
     height: 39px;
     margin-left: 195px;
-}
-
-.dosnavs {
-    color: black;
-    font-size: 18px;
-    font-weight: 400;
-    width: 271px;
-    height: 109px;
-    margin-top: 10px;
 }
 
 #obw {
@@ -239,36 +259,39 @@ p{
     margin-left: 170px;
 }
 
+.vebinars {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    width: 223px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.dosnavs {
+    font-size: 18px;
+    font-weight: 400;
+    width: 271px;
+    height: 109px;
+    margin-top: 10px;
+    margin-top: 10px;
+    color: #000000;
+}
+
 .obws {
     margin-top: 10px;
     width: 245px;
     height: 39px;
     font-size: 18px;
     font-weight: 400;
-    color: black;
+    margin-top: 10px;
+    color: #000000;
 }
 
-.sec-txt{
-    font-weight: 400;
-    font-size: 18px;    
-    margin: 0px;
-    line-height: 23px;
-}
-
-.sec-title{
-    font-weight: 700;
-    font-size: 25px;
-    margin: 0px;
-    line-height: 32px;
-}
-
-.format-chto {
-    font-weight: 700;
-    font-size: 55px;
-    font-family: Roboto Slab;
+.chto {
     height: 93px;
     width: 667px;
-    /* margin-top: 260px; */
+    margin-top: 179px;
     margin-bottom: 21px;
 }
 
@@ -276,33 +299,27 @@ p{
     font-weight: 400;
     font-size: 24px;
     width: 662px;
-    height: 374px;        
-    list-style-type: none;    
-    padding-left: 0px;
+    height: 374px;
+    padding-left: 1px;
     line-height: 36px;
+    list-style-type: none;
 }
 
-ul li:before{ 
-    vertical-align: middle;
-    content:"•"; 
-    width: 6px;
-    height: 6px;
-    
- }
-
-li span {
-    position: relative;
-    left: 10px;   
-    text-align: left; 
+ul li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6) {
+    list-style: circle url("images/circle.svg");
+    margin-left: 15px;
+    padding-left: 1px;
 }
 
-.format-programma {
-    font-weight: 700;
-    font-size: 55px;    
-    font-family: Roboto Slab;
+ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
+    background: url("images/circle.svg") no-repeat left center;
+    padding-left: 16px;
+}
+
+.h2-programma {
     height: 93px;
     width: 905px;
-    margin-top: 180px;
+    margin-top: 248px;
 }
 
 
@@ -316,14 +333,42 @@ li span {
 /* #endregion */
 
 /* #region Div-5 */
+.five {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1308px;
+    height: 1070px;
+    margin-left: 84px;
+}
+
+.b {
+    margin-right: 37px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 399px;
+    height: 328px;
+}
+
 .five-title{
     font-weight: 700;
     font-size: 30px;
+    width: 365px;
+    margin-top: 11px;
+    margin-left: 20px;
+    margin-bottom: 32px;
 }
 
 .five-txt{
     font-weight: 400;
     font-size: 25px;
+    margin-bottom: 23px;
+    margin-left: 19px;
+    margin-top: 0;
+}
+
+.b8-title {
+    margin-bottom: 0;
 }
 /* #endregion */
 
@@ -333,7 +378,7 @@ li span {
     height: 780px;
     padding-top: 91px;
     padding-left: 122px;
-
+    width: calc(100%-122px);
 }
 
 .h2-kurs {
@@ -362,7 +407,7 @@ li span {
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     padding-top: 40px;
-    /* padding-bottom: ; */
+    margin-bottom: 111px;
 }
 
 .avatar-txt {
@@ -397,11 +442,6 @@ li span {
     display: flex;
     flex-direction: row;
     margin: 0px;    
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 55px;
 }
 
 .h2-nachalo {
@@ -448,6 +488,8 @@ h2 {
 .seven-small-txt{
     font-weight: 400;
     font-size: 18px;
+    width: 294px;
+    height: 70px;
 }
 /* #endregion */
 
@@ -500,7 +542,6 @@ h2 {
 .contact-info2{
     margin-top: 0px;
     width: 269px;
-    padding-right: 146;
 }
 
 .media {
