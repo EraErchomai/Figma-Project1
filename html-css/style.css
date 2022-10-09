@@ -142,11 +142,10 @@ body {
 
 .format{
     font-weight: 700;
-    font-size: 55px;
-    margin-left: 121px;
+    font-size: 55px;    
     font-family: Roboto Slab;
     height: 93px;
-    width: 667px;
+    width: 667px;    
 }
 
 #headers {
@@ -155,8 +154,7 @@ body {
     color: #1E4681;
     font-family: 'Roboto';
     font-size: 25px;
-    font-weight: 700;
-    margin-left: 122px;
+    font-weight: 700;    
     margin-top: 89px;
 }
 
@@ -173,6 +171,11 @@ body {
     width: 223px;
     color: black;
     margin-top: 10px;
+}
+
+.three{
+    margin-bottom: 179px;
+    height: 331px;
 }
 
 #dosnav {
@@ -214,27 +217,27 @@ body {
 .format-chto {
     font-weight: 700;
     font-size: 55px;
-    margin-left: 121px;
     font-family: Roboto Slab;
     height: 93px;
     width: 667px;
-    margin-top: 260px;
+    /* margin-top: 260px; */
+    margin-bottom: 21px;
 }
 
 .only-list{
     font-weight: 400;
     font-size: 24px;
     width: 662px;
-    height: 374px;
-    margin-left: 80px;
-    margin-top: -25px;
-    list-style: none;
+    height: 374px;        
+    list-style: none;    
+    padding-left: 0px;
 }
 
 ul li:before{ 
     vertical-align: middle;
     content:"•"; 
-    font-size:27px;
+    width: 6px;
+    height: 6px;
  }
 
 li span {
@@ -244,11 +247,10 @@ li span {
 
 .format-programma {
     font-weight: 700;
-    font-size: 55px;
-    margin-left: 121px;
+    font-size: 55px;    
     font-family: Roboto Slab;
     height: 93px;
-    width: 667px;
+    width: 905px;
     margin-top: 180px;
 }
 
@@ -277,8 +279,10 @@ li span {
 /* #region Div-6 */
 .six {
     background: #EFEFEF;
+    height: 780px;
     padding-top: 91px;
     padding-left: 122px;
+
 }
 
 .h2-kurs {
