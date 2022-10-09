@@ -52,26 +52,63 @@ p{
 
 }
 
+.title-side {
+    display: flex;
+    flex-direction: row;
+}
+
 .kak{
     font-weight: 700;
     font-size: 80px;
     font-family: Roboto Slab;
+    width: 628px;
+    height: 190px;
+    margin-bottom: 0;
+    line-height: 81px;
 }
 
 .za{
     font-weight: 400;
     font-size: 20px;
+    width: 414px;
+    height: 62px;
+    line-height: 30px;
+}
+
+.side1 {
+    margin-left: 140px;
+}
+
+.block {
+    width: 457.6px;
+    height: 180.74px;
+    background: #1E4681;
+    border-radius: 5px;
+    margin-left: 289.39px;
+    padding-top: 19.26px;
+    padding-left: 26.03px;
+    margin-top: 177.62px;
+    margin-bottom: 173.38px;
 }
 
 .zritel{
     font-weight: 400;
     font-size: 25px;
     font-family: Roboto Slab;
+    color: white;
+    margin: 0 27.02px 0 0;
+    width: 430.59px;
+    height: 113px;
+    line-height: 32.5px;
 }
 
 .andrey{
     font-weight: 400;
     font-size: 20px;
+    color: white;
+    width: 280.5px;
+    height: 45.64px;
+    margin: 22.12px 0 0 248.58px;
 }
 /* #endregion */
 
@@ -80,19 +117,70 @@ p{
     font-weight: 700;
     font-size: 55px;  
     font-family: Roboto Slab; 
+    width: 365px;
+    height: 93px;
+    margin-bottom: 18px;
 }
 
 .poroy{
-    font-size: 24px;
     font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 36px;
 }
 
+.poroy2{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 0px;
+    line-height: 36px;
+}
+
+.two-top {
+    display: flex;
+    flex-direction: row;
+}
+.two-txt {
+    width: 662px;
+    height: 374px;
+    box-sizing: content-box;
+}
+
+.side2 {
+    margin-left: 190px;
+    margin-bottom: 46px;
+    margin-top: 24px;
+}
+
+.two-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 94px;
+    height: 203px;
+}
+
+.two-bottom p{
+    height: 39px;
+    width: 150px;
+}
+
+.two-texts{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-left: 132px;
+}
+
+.two-txt-1{
+    margin-right: 95px;
+}
 /* -----------------------------Zaur's part----------------------------------- */
 /* -----------------------------Zaur's part----------------------------------- */
 /* -----------------------------Zaur's part----------------------------------- */
 
 
-.section1 {
+/* .section1 {
     display: flex;
 }
 
@@ -206,15 +294,15 @@ p{
     text-align: left;
 
 
-}
+} */
 
 .format{
     font-weight: 700;
-    font-size: 55px;
-    margin-left: 121px;
+    font-size: 55px;    
+    margin-top: 178px;
     font-family: Roboto Slab;
     height: 93px;
-    width: 667px;
+    width: 667px;    
 }
 
 #headers {
@@ -223,8 +311,7 @@ p{
     color: #1E4681;
     font-family: 'Roboto';
     font-size: 25px;
-    font-weight: 700;
-    margin-left: 122px;
+    font-weight: 700;    
     margin-top: 89px;
 }
 
@@ -241,6 +328,11 @@ p{
     width: 223px;
     color: black;
     margin-top: 10px;
+}
+
+.three{
+    margin-bottom: 179px;
+    height: 331px;
 }
 
 #dosnav {
@@ -275,47 +367,58 @@ p{
 
 .sec-txt{
     font-weight: 400;
-    font-size: 18px;
-    margin-left: 122px;
+    font-size: 18px;    
+    margin: 0px;
+    line-height: 23px;
+}
+
+.sec-title{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px;
+    line-height: 32px;
 }
 
 .format-chto {
     font-weight: 700;
     font-size: 55px;
-    margin-left: 121px;
     font-family: Roboto Slab;
     height: 93px;
     width: 667px;
-    margin-top: 260px;
+    /* margin-top: 260px; */
+    margin-bottom: 21px;
 }
 
 .only-list{
     font-weight: 400;
     font-size: 24px;
     width: 662px;
-    height: 374px;
-    margin-left: 80px;
-    margin-top: -25px;
-    list-style: none;
+    height: 374px;        
+    list-style-type: none;    
+    padding-left: 0px;
+    line-height: 36px;
 }
 
 ul li:before{ 
     vertical-align: middle;
-    content:"•"; font-size:27px;
+    content:"•"; 
+    width: 6px;
+    height: 6px;
+    
  }
 
 li span {
     position: relative;
-    left: 10px;
+    left: 10px;   
+    text-align: left; 
 }
 
 .format-programma {
     font-weight: 700;
-    font-size: 55px;
-    margin-left: 121px;
+    font-size: 55px;    
     font-family: Roboto Slab;
     height: 93px;
-    width: 667px;
+    width: 905px;
     margin-top: 180px;
 }
 
@@ -342,17 +445,60 @@ li span {
 /* #endregion */
 
 /* #region Div-6 */
+.six {
+    background: #EFEFEF;
+    height: 780px;
+    padding-top: 91px;
+    padding-left: 122px;
+
+}
+
+.h2-kurs {
+    width: 987px;
+    height: 93px;
+    margin: 0 0 34px 0;
+}
+
 .kurs{
     font-weight: 400;
     font-size: 20px;
+    font-family: 'Roboto';
+    width: 700px;
+    height: 203px;   
+    margin: 0 46px 10px 45px;
 }
 
-.ekaterina{
+.avatar {
+    margin-left: 26px;
+}
+
+.comment {
+    width: 791px;
+    height: 451px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding-top: 40px;
+    /* padding-bottom: ; */
+}
+
+.avatar-txt {
+    display: flex;
+    flex-direction: row;
+}
+
+.kate-f {
+    margin-left: 30px;
+}
+
+.ekaterina {
     font-weight: 700;
     font-size: 30px;
     font-family: Roboto Slab;
+    width: 353px;
+    height: 59px;
+    margin: 50px 192px 0 0px;
 }
-
 /* #endregion */
 
 /* #region Div-7 */
@@ -373,6 +519,9 @@ li span {
 h2 {
     font-weight: 700;
     font-size: 55px;
+}
+
+.h2-nachalo {
     margin: 0px;
 }
 
