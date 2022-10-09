@@ -7,10 +7,10 @@ body {
     padding-top: 21px;        
 }
 
-/* p{
+p{
     vertical-align: top;
     text-align: left;
-} */
+}
 
 .main {
     display: flex;
@@ -64,6 +64,7 @@ body {
     width: 628px;
     height: 190px;
     margin-bottom: 0;
+    line-height: 81px;
 }
 
 .za{
@@ -71,6 +72,7 @@ body {
     font-size: 20px;
     width: 414px;
     height: 62px;
+    line-height: 30px;
 }
 
 .side1 {
@@ -97,6 +99,7 @@ body {
     margin: 0 27.02px 0 0;
     width: 430.59px;
     height: 113px;
+    line-height: 32.5px;
 }
 
 .andrey{
@@ -120,21 +123,57 @@ body {
 }
 
 .poroy{
-    font-size: 24px;
     font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 36px;
 }
 
-.two-side {
+.poroy2{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 0px;
+    line-height: 36px;
+}
+
+.two-top {
     display: flex;
     flex-direction: row;
 }
 .two-txt {
     width: 662px;
     height: 374px;
+    box-sizing: content-box;
 }
 
 .side2 {
     margin-left: 190px;
+    margin-bottom: 46px;
+    margin-top: 24px;
+}
+
+.two-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 94px;
+    height: 203px;
+}
+
+.two-bottom p{
+    height: 39px;
+    width: 150px;
+}
+
+.two-texts{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-left: 132px;
+}
+
+.two-txt-1{
+    margin-right: 95px;
 }
 /* -----------------------------Zaur's part----------------------------------- */
 /* -----------------------------Zaur's part----------------------------------- */
@@ -143,6 +182,7 @@ body {
 .format{
     font-weight: 700;
     font-size: 55px;    
+    margin-top: 178px;
     font-family: Roboto Slab;
     height: 93px;
     width: 667px;    
@@ -210,8 +250,16 @@ body {
 
 .sec-txt{
     font-weight: 400;
-    font-size: 18px;
-    margin-left: 122px;
+    font-size: 18px;    
+    margin: 0px;
+    line-height: 23px;
+}
+
+.sec-title{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px;
+    line-height: 32px;
 }
 
 .format-chto {
@@ -229,8 +277,9 @@ body {
     font-size: 24px;
     width: 662px;
     height: 374px;        
-    list-style: none;    
+    list-style-type: none;    
     padding-left: 0px;
+    line-height: 36px;
 }
 
 ul li:before{ 
@@ -238,11 +287,13 @@ ul li:before{
     content:"•"; 
     width: 6px;
     height: 6px;
+    
  }
 
 li span {
     position: relative;
-    left: 10px;
+    left: 10px;   
+    text-align: left; 
 }
 
 .format-programma {
