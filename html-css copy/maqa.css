@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: Roboto;
+    margin: 0px;
+    padding-top: 21px;  
+}
+
+.main {
+    display: flex;
+    flex-direction: column;    
+}
+
+.top {
+    padding-left: 121px;
+}
+
+/* #region Div-1 */
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 96px;   
+    padding: 0px;
+}
+
+.globe{
+    margin-right: 8px;
+}
+
+.clock{
+    margin-left: 39px;
+    margin-right: 10px; 
+}
+
+.calendar{
+    margin-right: 13px;
+    margin-left: 46px;
+}
+
+.course-info{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+    margin: 3px 0 0;
+}
+
+.title-side {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 80px;
+    font-family: Roboto Slab;
+    width: 628px;
+    height: 190px;
+    margin-bottom: 0;
+    line-height: 101.38%;
+    margin-top: 43px;
+}
+
+.za{
+    font-weight: 400;
+    font-size: 20px;
+    width: 414px;
+    height: 62px;
+    line-height: 150%;
+    margin-top: -11px;
+}
+
+.side-ellipse {
+    position: relative;
+}
+
+.side1 {
+    margin-left: 140px;
+    position: absolute;
+}
+
+.ellipse1 {
+    margin-left: 171px;
+    margin-top: 335px;
+}
+
+.block {
+    width: 457.6px;
+    height: 180.74px;
+    background: #1E4681;
+    border-radius: 5px;
+    margin-left: 288.39px;
+    padding-top: 19.26px;
+    padding-left: 26.03px;
+    margin-top: 87.62px;
+    margin-bottom: 173.36px;
+}
+
+.zritel{
+    font-weight: 400;
+    font-size: 25px;
+    font-family: Roboto Slab;
+    color: white;
+    margin: 0 27.02px 0 0;
+    width: 430.59px;
+    height: 113px;
+    line-height: 130%;
+}
+
+.andrey{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    width: 280.5px;
+    height: 45.64px;
+    margin: 22.12px 0 0 158.58px;
+    text-align: right;
+    font-family: Roboto Slab;
+    line-height: 130%;
+}
+/* #endregion */
+
+/* #region Div-2-3-4 */
+h2 {
+    font-weight: 700;
+    font-size: 55px;
+    font-family: Roboto Slab; 
+    margin: 0;
+}
+
+.okurse{ 
+    width: 365px;
+    height: 93px;
+}
+
+.two-p {
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 24px;
+    width: 662px;
+}
+
+.poroy{   
+    margin: 0 0 53px 0;
+}
+
+.na {
+    margin: 0;
+}
+
+.two-top {
+    display: flex;
+    margin-top: 18px;
+}
+
+.two-txt {
+    height: 374px;
+    box-sizing: content-box;
+}
+
+.side2-ellipse {
+    position: relative;
+}
+
+.side2 {
+    margin-left: 190px;
+    position: absolute;
+    top: 24px;
+}
+
+.ellipse2 {
+    margin-left: 164px;
+    margin-top: 309px;
+}
+
+.two-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 94px;
+}
+
+.two-div-img-2 {
+    position: relative;
+}
+
+.side3 {
+    position: absolute;
+}
+
+.ellipse3 {
+    margin-top: 187px;
+    margin-left: 33px;
+}
+
+.two-bottom p{
+    height: 39px;
+    width: 150px;
+    line-height: 130%;
+}
+
+.two-texts{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-left: 132px;
+}
+
+.sec-txt{
+    font-weight: 400;
+    font-size: 18px;    
+    margin: 0;
+    line-height: 130%;
+}
+
+.sec-title{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px;
+    line-height: 32px;
+}
+
+.two-txt-1{
+    margin-right: 95px;
+}
+/* -----------------------------Zaur's part----------------------------------- */
+/* -----------------------------Zaur's part----------------------------------- */
+/* -----------------------------Zaur's part----------------------------------- */
+
+.format{    
+    margin-top: 162px;
+    height: 93px;
+    width: 667px;    
+}
+
+#headers {
+    width: 100%;
+    display: flex;
+    color: #1E4681;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 700;    
+    margin-top: 89px;
+}
+
+#vebinar {
+    width: 150px;
+    height: 39px;
+    margin-top: 0px;
+}
+
+#dosnav {
+    width: 214px;
+    height: 39px;
+    margin-left: 195px;
+}
+
+#obw {
+    width: 150px;
+    height: 39px;
+    margin-left: 170px;
+}
+
+.vebinars {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    width: 223px;
+    margin-top: 10px;
+    color: #000000;
+    line-height: 130%;
+}
+
+.dosnavs {
+    font-size: 18px;
+    font-weight: 400;
+    width: 271px;
+    height: 109px;
+    margin-top: 10px;
+    margin-top: 10px;
+    color: #000000;
+    line-height: 130%;
+}
+
+.obws {
+    margin-top: 10px;
+    width: 245px;
+    height: 39px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #000000;
+    line-height: 130%;
+}
+
+.chto {
+    height: 93px;
+    width: 667px;
+    margin-top: 179px;
+    margin-bottom: 21px;
+}
+
+.only-list{
+    font-weight: 400;
+    font-size: 24px;
+    width: 662px;
+    height: 374px;
+    padding-left: 1px;
+    line-height: 150%;
+    list-style-type: none;
+}
+
+ul li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6) {
+    list-style: circle url("images/circle.svg");
+    margin-left: 15px;
+    padding-left: 1px;
+}
+
+ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
+    background: url("images/circle.svg") no-repeat left center;
+    padding-left: 16px;
+}
+
+.h2-programma {
+    height: 93px;
+    width: 905px;
+    margin-top: 248px;
+}
+
+/* -----------------------------Zaur's part----------------------------------- */
+/* -----------------------------Zaur's part----------------------------------- */
+/* -----------------------------Zaur's part----------------------------------- */
+
+
+/* #endregion */
+
+/* #region Div-5 */
+.five {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1308px;
+    height: 1070px;
+    margin-left: 84px;
+}
+
+.b {
+    margin-right: 37px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 399px;
+    height: 328px;
+}
+
+.five-title{
+    font-weight: 700;
+    font-size: 30px;
+    width: 365px;
+    margin-top: 11px;
+    margin-left: 20px;
+    margin-bottom: 32px;
+}
+
+.five-txt{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 23px;
+    margin-left: 19px;
+    margin-top: 0;
+}
+
+.b8-title {
+    margin-bottom: 0;
+}
+/* #endregion */
+
+/* #region Div-6 */
+.six {
+    background: #EFEFEF;
+    height: 780px;
+    padding-top: 91px;
+    padding-left: 122px;
+    width: calc(100%-122px);
+}
+
+.h2-kurs {
+    width: 987px;
+    height: 93px;
+    margin: 0 0 34px 0;
+}
+
+.kurs{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Roboto';
+    width: 700px;
+    height: 203px;   
+    margin: 0 46px 10px 45px;
+    line-height: 150%;
+}
+
+.avatar {
+    margin-left: 26px;
+}
+
+.comment {
+    width: 791px;
+    height: 451px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding-top: 40px;
+    margin-bottom: 111px;
+}
+
+.avatar-txt {
+    display: flex;
+    flex-direction: row;
+}
+
+.kate-f {
+    margin-left: 30px;
+}
+
+.ekaterina {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Roboto Slab;
+    width: 353px;
+    height: 59px;
+    margin: 50px 192px 0 0px;
+}
+/* #endregion */
+
+/* #region Div-7 */
+.seven {
+    width: calc(100%-122px);
+    height: 780px;
+    background: #9DC9C8;
+    padding-left: 122px;
+    padding-top: 179px;
+}
+
+.description-7{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;    
+}
+
+.h2-nachalo {
+    margin: 0px;
+}
+
+.stoimost {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 54px;    
+    margin-bottom: 0px;
+}
+
+.description-b2{
+    margin-right: 660px;
+}
+
+.description-b1{
+    margin-right: 70px;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 155px;
+}
+
+.nachalo{
+    font-weight: 700;
+    font-size: 55px;
+    font-family: Roboto Slab;
+}
+
+.seven-small-title{    
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+.seven-small-txt{
+    font-weight: 400;
+    font-size: 18px;
+    width: 294px;
+    height: 70px;
+    line-height: 101.38%;
+}
+/* #endregion */
+
+/* #region Div-8 */
+.eight {
+    width: 100%;
+    height: 390px;
+    background: #000000;
+    color: white;    
+    display: flex;
+    flex-direction: row;
+}
+
+.sinx {
+    margin-left: 122px;
+    margin-top: 50px;
+}
+
+.contacts {
+    margin-left: 656px;
+    margin-top: 54px;
+}
+
+.contactimg1 {
+    margin-right: 22px;
+    height: 27px;
+    margin-bottom: 25px;
+    width: 27px;    
+}
+
+
+.contactimg2 {
+    margin-right: 22px;
+    height: 18px;
+    width: 27px;    
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;    
+    margin-bottom: 3px;
+}
+
+.contact-info{
+    margin-top: 11px;
+    margin-right: 185px;
+    width: 230px;
+    font-size: 25px;
+}
+
+.contact-info2{
+    margin-top: 0px;
+    width: 269px;
+    font-size: 25px;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.img2 {
+    margin-bottom: 30px;
+}
+
+.social-insta{
+    margin-right: 18px;
+}
+
+.social-f{
+    margin-right: 21px;
+}
+
+.social-vk{
+    margin-right: 25px;
+}
+
+.bottom {
+    margin-top: 147px;
+    margin-bottom: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    width: 230px;
+}
+/* #endregion */
+ 
+
+/* #region Tablet */
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+
+}
+/* #endregion */
+
+/* #region Mobile */
+@media screen and (min-width: 320px) and (max-width: 991px) {
+
+}
+/* #endregion */
