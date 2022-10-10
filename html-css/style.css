@@ -5,6 +5,7 @@ body {
     font-family: Roboto;
     margin: 0px;
     padding-top: 21px;  
+    max-width: 1440px;
 }
 
 .main {
@@ -509,11 +510,12 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 
 .sinx {
     margin-left: 122px;
+    margin-right: 624px;
     margin-top: 50px;
 }
 
 .contacts {
-    margin-left: 656px;
+    margin-right: 146px;
     margin-top: 54px;
 }
 
@@ -523,7 +525,6 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     margin-bottom: 25px;
     width: 27px;    
 }
-
 
 .contactimg2 {
     margin-right: 22px;
@@ -539,7 +540,6 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 
 .contact-info{
     margin-top: 11px;
-    margin-right: 185px;
     width: 230px;
     font-size: 25px;
 }
