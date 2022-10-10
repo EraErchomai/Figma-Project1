@@ -590,6 +590,101 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 
 /* #region Mobile */
 @media screen and (min-width: 320px) and (max-width: 991px) {
+    body {
+        font-family: Roboto;
+        margin: 0px;
+        padding-top: 36px;  
+    }
+    
+    p{
+        text-align: left;
+        vertical-align: top;
+    }
 
+    .main {
+        display: flex;
+        flex-direction: column;    
+    }
+    
+    .top {
+        padding-left: 35px;
+    }
+    /* #region Div-1 */
+    .header {
+        display: flex;
+        flex-direction: row;
+        margin-top: 45.2px;   
+        padding: 0px;
+    }
+
+    .globe{
+        margin-right: 3.7px;
+    }
+    
+    .clock{
+        margin-left: 11.65px;
+        margin-right: 4.6px; 
+        height: 14.91px;
+        width: 60.58px;
+    }
+    
+    .calendar{
+        margin-right: 13px;
+        margin-right: 6px;                
+    }
+
+    .course-info{
+        font-size: 10px;
+        font-weight: 400;
+        padding: 0;
+        margin: 3px 0 0;
+        line-height: 11px;
+    }
+
+    .title-side {
+        display: flex;
+        flex-direction: row;        
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 37px;
+        font-family: Roboto Slab;
+        width: 292.63px;
+        height: 88.53px;
+        margin-bottom: 2px;
+        line-height: 101.38%;
+        margin-top: 8px;
+    }
+
+    .za{
+        font-weight: 400;
+        font-size: 10px;
+        width: 212px;
+        height: 29px;
+        line-height: 15px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .side-ellipse {
+        position: relative;
+        padding: 0px;
+        margin-left: 166px;
+        margin-top: 0px ;
+    }
+
+    .side1 {        
+        width: 141.68px;
+        height: 175.1px;
+        position: absolute;
+    }
+
+    .ellipse1 {     
+        margin-top: 156px;
+    }
+
+    
+    /* #endregion */
 }
 /* #endregion */
