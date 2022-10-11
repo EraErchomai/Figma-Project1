@@ -243,60 +243,67 @@ h2 {
     margin-top: 89px;
 }
 
-#vebinar {
-    width: 150px;
-    height: 39px;
-    margin-top: 0px;
+#vebinar{
+    margin-right: 122px;
 }
 
-#dosnav {
+#dosnav{
+    margin-right: 113px;
+}
+
+.vebinar-title{    
+    width: 150px;
+    height: 39px;
+    margin-bottom: 1px;
+}
+
+.vebinar-txt{
+    color: black;
+    margin-top: 0px;
+    width: 223px;
+    height: 39px;
+    font-size: 18px;
+    line-height: 130%;
+    font-weight: 400;
+}
+
+.dosnav-title{    
     width: 214px;
     height: 39px;
-    margin-left: 195px;
+    margin-bottom: 1px;
 }
 
-#obw {
-    width: 150px;
-    height: 39px;
-    margin-left: 170px;
-}
-
-.vebinars {
-    display: flex;
-    font-size: 18px;
-    font-weight: 400;
-    width: 223px;
-    margin-top: 10px;
-    color: #000000;
-    line-height: 130%;
-}
-
-.dosnavs {
-    font-size: 18px;
-    font-weight: 400;
+.dosnav-txt{
+    color: black;
+    margin-top: 0px;
     width: 271px;
     height: 109px;
-    margin-top: 10px;
-    margin-top: 10px;
-    color: #000000;
+    font-size: 18px;
     line-height: 130%;
+    font-weight: 400;
 }
 
-.obws {
-    margin-top: 10px;
+.obw-title{    
+    width: 150px;
+    height: 39px;
+    margin-bottom: 1px;
+    
+}
+
+.obw-txt{
+    color: black;
+    margin-top: 0px;
     width: 245px;
     height: 39px;
     font-size: 18px;
-    font-weight: 400;
-    margin-top: 10px;
-    color: #000000;
     line-height: 130%;
+    font-weight: 400;
 }
 
 .chto {
     height: 93px;
     width: 667px;
-    margin-top: 289px;
+    margin-top: 179px;
     margin-bottom: 21px;
 }
 
