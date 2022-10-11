@@ -577,8 +577,656 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
  
 
 /* #region Tablet */
+
 @media screen and (min-width: 992px) and (max-width: 1279px) {
 
+
+    .img1 {
+
+        height: 38.22500228881836px;
+        width: 64.86666870117188px;
+        margin-left: 70.0791015625px;
+        margin-top: 22px;
+        border-radius: 0px;
+    }
+
+    body {
+        font-family: Roboto;
+        margin: 0px;
+        padding-top: 22px;  
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;    
+    }
+    
+    .top {
+        padding-left: 57.92px;
+    }
+    
+    /* #region Div-1 */
+    .header {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+    
+    .globe{
+        /* margin-right: 8px; */
+        height: 12.162500381469727px;
+        width: 12.741668701171875px;
+        margin-left: 70.4591015625px;
+        margin-top: 57.92px;
+
+    }
+    
+    .clock{
+        height: 12.741668701171875px;
+        width: 12.741668701171875px;
+        margin-top: 57.92px;
+        margin-left: 1px;
+    }
+    
+    .calendar{
+        height: 12.741668701171875px;
+        width: 11.583334922790527px;
+        margin-left: -15px;
+        margin-top: 57.92px;
+
+    }
+    
+    .course-info{
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        margin: 3px 0 0;
+        height: 18.533334732055664px;
+        width: 75.29167175292969px;
+        margin-left: 4.45px;
+        margin-top: 59px;
+        margin-right: 19px;
+
+    }
+    
+    .title-side {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1px;
+    }
+    
+    h1 {
+        height: 110.04167175292969px;
+        width: 363.7166748046875px;
+        margin-left: 70.658203125px;
+        border-radius: nullpx;
+
+        font-weight: 700;
+        font-size: 46px;
+        font-family: Roboto Slab;
+        width: 628px;
+        height: 190px;
+        margin-bottom: 0;
+        line-height: 101.38%;
+        margin-top: 16px;
+    }
+    
+    .za{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        margin-top: -11px;
+        height: 36px;
+        width: 264px;
+        margin-left: 71px;
+        margin-top: -80px;
+        border-radius: nullpx;
+
+    }
+    
+    .side-ellipse {
+        position: relative;
+    }
+    
+    .side1 {
+        position: absolute;
+        height: 206.183349609375px;
+        width: 176.06668090820312px;
+        margin-left: -180px;
+        margin-top: 10px;
+        border-radius: 0px;
+
+    }
+    
+    .ellipse1 {
+        height: 23.745834350585938px;
+        width: 158.69166564941406px;
+        margin-left: -160px;
+        margin-top: 204px;
+        border-radius: 0px;
+        
+    }
+    
+    .block {
+        height: 115.83332897226px;
+        width: 280.1052384313789px;
+        margin-left: 237.1031494140625px;
+        margin-top: 40px;
+        border-radius: 2.8958334922790527px;
+        background: #1E4681;
+    }
+    
+    .zritel{
+        height: 65.44583892822266px;
+        width: 249.3825225830078px;
+        margin-left: 252.1787109375px;
+        margin-top: 407.0766830444336px;
+        border-radius: nullpx;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: Roboto Slab;
+        color: white;
+        line-height: 18.2px;
+        margin: 0 27.02px 0 0;
+        padding-top: 11.15px;
+        padding-left: 15.08px;
+        padding-right: 15.65px;
+        padding-bottom: 39.24px;
+    }
+    
+    .andrey{
+        height: 26.43401336669922px;
+        width: 162.45594787597656px;
+        margin-top: -26px;
+        margin-left: 108px;
+        margin-right: 9.42px;
+        border-radius: nullpx;
+        font-weight: 400;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        text-align: right;
+        font-family: Roboto;
+    }
+    /* #endregion */
+    
+    /* #region Div-2-3-4 */
+    h2 {
+        font-weight: 700;
+        font-size: 55px;
+        font-family: Roboto Slab; 
+        margin: 0;
+    }
+    
+    .okurse{ 
+        height: 53.86250305175781px;
+        width: 211.39585876464844px;
+        margin-left: 70.0791015625px;
+        margin-top: 100.41px;
+        border-radius: nullpx;
+        font-size: 32px;
+
+    }
+    
+    .two-p {
+        line-height: 150%;
+        font-weight: 400;
+        font-size: 14px;
+        width: 381px;
+        margin-left: 70.08px;
+    }
+    
+    .poroy{   
+        margin: 0 0 53px 0;
+        margin-left: 70.08px;
+        margin-bottom: 20px;
+    }
+    
+    .na {
+        margin: 0;
+        margin-left: 70.08px;
+    }
+    
+    .two-top {
+        display: flex;
+        margin-top: 18px;
+    }
+    
+    .two-txt {
+        height: 374px;
+        box-sizing: content-box;
+    }
+    
+    .side2-ellipse {
+        position: relative;
+    }
+    
+    .side2 {
+        margin-left: 190px;
+        position: absolute;
+        top: 24px;
+        height: 182.4375px;
+        width: 181.85833740234375px;
+        margin-left: 115.529541015625px;
+        margin-top: 20px;
+
+    }
+    
+    .ellipse2 {
+        margin-top: 210px;
+        margin-left: 100.529541015625px;
+        height: 34.170833587646484px;
+        width: 211.9750213623047px;
+    }
+    
+    .two-bottom {
+        display: flex;
+        flex-direction: row;
+        margin-top: 94px;
+    }
+    
+    .two-div-img-2 {
+        position: relative;
+    }
+    
+    .side3 {
+        position: absolute;
+        height: 117.57083892822266px;
+        width: 134.36668395996094px;
+        margin-left: 70.0791015625px;
+        margin-top: -190px;
+        border-radius: 0px;
+
+    }
+    
+    .ellipse3 {
+        margin-top: -190px;
+        height: 18.533334732055664px;
+        width: 109.46250915527344px;
+        margin-left: 90.0791015625px;
+
+    }
+    
+    .two-bottom p{
+        height: 39px;
+        width: 150px;
+    }
+    
+    .two-texts{
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        margin-left: 132px;
+    }
+    
+    .sec-txt{
+        font-weight: 400;
+        font-size: 18px;    
+        margin: 0;
+        line-height: 23px;
+    }
+    
+    .sec-title{
+        font-weight: 700;
+        font-size: 25px;
+        margin: 0px;
+        line-height: 32px;
+    }
+    
+    .two-txt-1{
+        margin-right: 95px;
+    }
+    /* -----------------------------Zaur's part----------------------------------- */
+    /* -----------------------------Zaur's part----------------------------------- */
+    /* -----------------------------Zaur's part----------------------------------- */
+    
+    .format{    
+        margin-top: 162px;
+        height: 93px;
+        width: 667px;    
+    }
+    
+    #headers {
+        width: 100%;
+        display: flex;
+        color: #1E4681;
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: 700;    
+        margin-top: 89px;
+    }
+    
+    #vebinar {
+        width: 150px;
+        height: 39px;
+        margin-top: 0px;
+    }
+    
+    #dosnav {
+        width: 214px;
+        height: 39px;
+        margin-left: 195px;
+    }
+    
+    #obw {
+        width: 150px;
+        height: 39px;
+        margin-left: 170px;
+    }
+    
+    .vebinars {
+        display: flex;
+        font-size: 18px;
+        font-weight: 400;
+        width: 223px;
+        margin-top: 10px;
+        color: #000000;
+    }
+    
+    .dosnavs {
+        font-size: 18px;
+        font-weight: 400;
+        width: 271px;
+        height: 109px;
+        margin-top: 10px;
+        margin-top: 10px;
+        color: #000000;
+    }
+    
+    .obws {
+        margin-top: 10px;
+        width: 245px;
+        height: 39px;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 10px;
+        color: #000000;
+    }
+    
+    .chto {
+        height: 93px;
+        width: 667px;
+        margin-top: 179px;
+        margin-bottom: 21px;
+    }
+    
+    .only-list{
+        font-weight: 400;
+        font-size: 24px;
+        width: 662px;
+        height: 374px;
+        padding-left: 1px;
+        line-height: 36px;
+        list-style-type: none;
+    }
+    
+    ul li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6) {
+        list-style: circle url("images/circle.svg");
+        margin-left: 15px;
+        padding-left: 1px;
+    }
+    
+    ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
+        background: url("images/circle.svg") no-repeat left center;
+        padding-left: 16px;
+    }
+    
+    .h2-programma {
+        height: 93px;
+        width: 905px;
+        margin-top: 248px;
+    }
+    
+    
+    
+    
+    /* -----------------------------Zaur's part----------------------------------- */
+    /* -----------------------------Zaur's part----------------------------------- */
+    /* -----------------------------Zaur's part----------------------------------- */
+    
+    
+    /* #endregion */
+    
+    /* #region Div-5 */
+    .five {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1308px;
+        height: 1070px;
+        margin-left: 84px;
+    }
+    
+    .b {
+        margin-right: 37px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        width: 399px;
+        height: 328px;
+    }
+    
+    .five-title{
+        font-weight: 700;
+        font-size: 30px;
+        width: 365px;
+        margin-top: 11px;
+        margin-left: 20px;
+        margin-bottom: 32px;
+    }
+    
+    .five-txt{
+        font-weight: 400;
+        font-size: 25px;
+        margin-bottom: 23px;
+        margin-left: 19px;
+        margin-top: 0;
+    }
+    
+    .b8-title {
+        margin-bottom: 0;
+    }
+    /* #endregion */
+    
+    /* #region Div-6 */
+    .six {
+        background: #EFEFEF;
+        height: 780px;
+        padding-top: 91px;
+        padding-left: 122px;
+        width: calc(100%-122px);
+    }
+    
+    .h2-kurs {
+        width: 987px;
+        height: 93px;
+        margin: 0 0 34px 0;
+    }
+    
+    .kurs{
+        font-weight: 400;
+        font-size: 20px;
+        font-family: 'Roboto';
+        width: 700px;
+        height: 203px;   
+        margin: 0 46px 10px 45px;
+    }
+    
+    .avatar {
+        margin-left: 26px;
+    }
+    
+    .comment {
+        width: 791px;
+        height: 451px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        padding-top: 40px;
+        margin-bottom: 111px;
+    }
+    
+    .avatar-txt {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .kate-f {
+        margin-left: 30px;
+    }
+    
+    .ekaterina {
+        font-weight: 700;
+        font-size: 30px;
+        font-family: Roboto Slab;
+        width: 353px;
+        height: 59px;
+        margin: 50px 192px 0 0px;
+    }
+    /* #endregion */
+    
+    /* #region Div-7 */
+    .seven {
+        width: calc(100%-122px);
+        height: 780px;
+        background: #9DC9C8;
+        padding-left: 122px;
+        padding-top: 179px;
+    }
+    
+    .description-7{
+        display: flex;
+        flex-direction: row;
+        margin: 0px;    
+    }
+    
+    .h2-nachalo {
+        margin: 0px;
+    }
+    
+    .stoimost {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 25px;
+        margin-top: 54px;    
+        margin-bottom: 0px;
+    }
+    
+    .description-b2{
+        margin-right: 660px;
+    }
+    
+    .description-b1{
+        margin-right: 70px;
+    }
+    
+    .price {
+        font-weight: 400;
+        font-size: 80px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 155px;
+    }
+    
+    .nachalo{
+        font-weight: 700;
+        font-size: 55px;
+        font-family: Roboto Slab;
+    }
+    
+    .seven-small-title{    
+        font-weight: 400;
+        font-size: 25px;
+        margin-top: 0px;
+        margin-bottom: 9px;
+    }
+    
+    .seven-small-txt{
+        font-weight: 400;
+        font-size: 18px;
+        width: 294px;
+        height: 70px;
+    }
+    /* #endregion */
+    
+    /* #region Div-8 */
+    .eight {
+        width: 100%;
+        height: 390px;
+        background: #000000;
+        color: white;    
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .sinx {
+        margin-left: 122px;
+        margin-top: 50px;
+    }
+    
+    .contacts {
+        margin-left: 656px;
+        margin-top: 54px;
+    }
+    
+    .contactimg1 {
+        margin-right: 22px;
+        height: 27px;
+        margin-bottom: 25px;
+        width: 27px;    
+    }
+    
+    
+    .contactimg2 {
+        margin-right: 22px;
+        height: 18px;
+        width: 27px;    
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: row;    
+        margin-bottom: 3px;
+    }
+    
+    .contact-info{
+        margin-top: 11px;
+        margin-right: 185px;
+        width: 230px;
+    }
+    
+    .contact-info2{
+        margin-top: 0px;
+        width: 269px;
+    }
+    
+    .media {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .img2 {
+        margin-bottom: 30px;
+    }
+    
+    .social-insta{
+        margin-right: 18px;
+    }
+    
+    .social-f{
+        margin-right: 21px;
+    }
+    
+    .social-vk{
+        margin-right: 25px;
+    }
+    
+    .bottom {
+        margin-top: 147px;
+        margin-bottom: 23px;
+        font-weight: 400;
+        font-size: 18px;
+        width: 230px;
+    }
 }
 /* #endregion */
 
