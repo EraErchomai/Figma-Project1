@@ -868,7 +868,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
     /* #endregion */
     
-    /* #region Div-3 */
+    /* #region Div-3-4 */
     .format{
         font-weight: 700;
         font-size: 26px;
@@ -973,6 +973,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         font-size: 26px;
         line-height: 101.38%;
         margin-top: 85px;
+        margin-bottom: 35px;
     }    
     /* #endregion */
 
@@ -981,11 +982,15 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         height: 1391.84px;        
         align-items: center;
         margin: 0px;
+        padding-left: 35px;
+        margin-bottom: 47px;
     }
 
     .b{
         width: 185.92px;
         height: 152.84px;
+        margin-bottom: 24.16px;
+        border-radius: 15px;
     }
     
     .bbb{
@@ -997,18 +1002,98 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     .five-title{
         font-size: 14px;
         line-height: 130%;
+        margin-top: 0px;
+        margin-bottom: 14.91px;
+        width: 170px;
+        margin-left: 9px;
     }
 
     .five-txt{        
         font-size: 12px;
         line-height: 130%;
+        margin-bottom: 0px;
+        width: 170.08px;
+        margin-left: 9px;
+        height: 29.36px;
     }
 
     .block-img{
         width: 185.92px;
-        height: 74.56px;
+        height: 74.56px;        
+    }
+
+    .b78{
+        flex-direction: column;
+    }
+
+    .b8-title{
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
     /* #endregion */
+   
+    /* #region Div-6 */
+    .six{
+        margin-top: 0px;                
+        padding-left: 36px;
+        padding-top: 42px;
+        padding-right: 32px;
+        width: 376px;
+        height: 423px;
+        box-sizing: border-box;
+    }
+
+    .h2-kurs{
+        width: 257px;
+        height: 69px;            
+        font-size: 26px;
+        margin-left: 0px;
+        line-height: 101.38%;     
+        margin-bottom: 11px           
+    }
+
+    .comment{
+        width: 308px;
+        height: 248px;
+        padding: 18px 21px 0px 21px;
+        border-radius: 15px;       
+        margin-right: 0px;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+
+    .kurs{
+        width: 266px;
+        height: 111.01px;
+        font-size: 10px;
+        line-height: 150%;
+        margin: 0px;
+    }
+
+    .avatar{
+        width: 80px;
+        height: 84px;
+        margin: 0px;
+        margin-top: 21px;
+    }
     
+    .kate-f{
+        margin-left: 13.63px;
+        margin-top: 39px;
+    }
+
+    .ekaterina{
+        width: 164.49px;
+        height: 32.73px;
+        font-size: 14px;
+        margin: 0px;
+        line-height: 101.38%;
+    }
+
+    .facebook{
+        width: 14.91px;
+        height: 17.2px;
+    }
+    /* #endregion */
 }
 /* #endregion */
