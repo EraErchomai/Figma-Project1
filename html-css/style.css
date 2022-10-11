@@ -4,18 +4,16 @@
 body {
     font-family: Roboto;
     margin: 0px;
-    padding-top: 21px; 
-    min-width: 1280px; 
+    padding-top: 21px;  
 }
 
-/* .main {
+.main {
     display: flex;
     flex-direction: column; 
-} */
+}
 
 .top {
     padding-left: 121px;
-    width: auto;
 }
 
 /* #region Div-1 */
@@ -152,11 +150,8 @@ h2 {
 }
 
 .two-top {
-    /* display: flex; */
+    display: flex;
     margin-top: 18px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 140px;
 }
 
 .two-txt {
@@ -169,13 +164,13 @@ h2 {
 }
 
 .side2 {
-    /* margin-left: 190px; */
+    margin-left: 190px;
     position: absolute;
     top: 24px;
 }
 
 .ellipse2 {
-    /* margin-left: 164px; */
+    margin-left: 164px;
     margin-top: 309px;
 }
 
@@ -342,19 +337,17 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 
 /* #region Div-5 */
 .five {
-    height: 1070px;  
+    display: flex;
+    flex-wrap: wrap;
+    width: 1308px;
+    height: 1070px;
     margin-left: 84px;
 }
 
-.bbb {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 41px;
-}
-
 .b {
+    margin-right: 37px;
     background: #FFFFFF;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
     border-radius: 30px;
     width: 399px;
     height: 328px;
@@ -388,7 +381,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     height: 689px;
     padding-top: 91px;
     padding-left: 122px;
-    width: calc(100vw - 122px);
+    width: calc(100% - 122px);
     margin-top: 121px;
 }
 
@@ -511,22 +504,18 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     height: 390px;
     background: #000000;
     color: white;    
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 530px;
 }
 
 .sinx {
     margin-left: 122px;
-    /* margin-right: 624px; */
     margin-top: 50px;
 }
 
 .contacts {
     margin-top: 54px;
+    margin-left: 656px;
 }
 
 .contactimg1 {
