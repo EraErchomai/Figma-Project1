@@ -7,9 +7,14 @@ body {
     padding-top: 21px;  
 }
 
+p {
+    vertical-align: top;
+    text-align: left;
+}
+
 .main {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
 }
 
 .top {
@@ -93,7 +98,7 @@ h1 {
     margin-left: 288.39px;
     padding-top: 19.26px;
     padding-left: 26.03px;
-    margin-top: 87.62px;
+    margin-top: 67.62px;
     margin-bottom: 173.36px;
 }
 
@@ -105,7 +110,7 @@ h1 {
     margin: 0 27.02px 0 0;
     width: 430.59px;
     height: 113px;
-    line-height: 32.5px;
+    line-height: 130%;
 }
 
 .andrey{
@@ -117,6 +122,7 @@ h1 {
     margin: 22.12px 0 0 158.58px;
     text-align: right;
     font-family: Roboto Slab;
+    line-height: 130%;
 }
 /* #endregion */
 
@@ -141,7 +147,7 @@ h2 {
 }
 
 .poroy{   
-    margin: 0 0 53px 0;
+    margin: 0 0 45px 0;
 }
 
 .na {
@@ -195,6 +201,7 @@ h2 {
 .two-bottom p{
     height: 39px;
     width: 150px;
+    line-height: 130%;
 }
 
 .two-texts{
@@ -241,51 +248,66 @@ h2 {
     margin-top: 89px;
 }
 
-#vebinar {
-    width: 150px;
-    height: 39px;
-    margin-top: 0px;
+#vebinar{
+    margin-right: 122px;
 }
 
-#dosnav {
+#dosnav{
+    margin-right: 113px;
+}
+
+.vebinar-title{    
+    width: 150px;
+    height: 39px;
+    margin-bottom: 1px;
+    margin-top: 0;
+}
+
+.vebinar-txt{
+    color: black;
+    margin-top: 0px;
+    width: 223px;
+    height: 39px;
+    font-size: 18px;
+    line-height: 130%;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.dosnav-title{    
     width: 214px;
     height: 39px;
-    margin-left: 195px;
+    margin-bottom: 1px;
+    margin-top: 0;
 }
 
-#obw {
-    width: 150px;
-    height: 39px;
-    margin-left: 170px;
-}
-
-.vebinars {
-    display: flex;
-    font-size: 18px;
-    font-weight: 400;
-    width: 223px;
-    margin-top: 10px;
-    color: #000000;
-}
-
-.dosnavs {
-    font-size: 18px;
-    font-weight: 400;
+.dosnav-txt{
+    color: black;
+    margin-top: 0px;
     width: 271px;
     height: 109px;
-    margin-top: 10px;
-    margin-top: 10px;
-    color: #000000;
+    font-size: 18px;
+    line-height: 130%;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
-.obws {
-    margin-top: 10px;
+.obw-title{    
+    width: 150px;
+    height: 39px;
+    margin-bottom: 1px;
+    margin-top: 0;
+}
+
+.obw-txt{
+    color: black;
+    margin-top: 0px;
     width: 245px;
     height: 39px;
     font-size: 18px;
+    line-height: 130%;
     font-weight: 400;
-    margin-top: 10px;
-    color: #000000;
+    margin-bottom: 0;
 }
 
 .chto {
@@ -301,11 +323,11 @@ h2 {
     width: 662px;
     height: 374px;
     padding-left: 1px;
-    line-height: 36px;
-    list-style-type: none;
+    line-height: 150%;
+    margin-left: 17px;
 }
 
-ul li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6) {
+/* ul li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6) {
     list-style: circle url("images/circle.svg");
     margin-left: 15px;
     padding-left: 1px;
@@ -314,16 +336,14 @@ ul li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6) {
 ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     background: url("images/circle.svg") no-repeat left center;
     padding-left: 16px;
-}
+} */
 
 .h2-programma {
     height: 93px;
     width: 905px;
     margin-top: 248px;
+    margin-bottom: 95px;
 }
-
-
-
 
 /* -----------------------------Zaur's part----------------------------------- */
 /* -----------------------------Zaur's part----------------------------------- */
@@ -335,16 +355,25 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 /* #region Div-5 */
 .five {
     display: flex;
-    flex-wrap: wrap;
-    width: 1308px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 89%;
     height: 1070px;
     margin-left: 84px;
 }
 
+.bbb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b78 {
+    display: flex;
+}
+
 .b {
-    margin-right: 37px;
     background: #FFFFFF;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
     border-radius: 30px;
     width: 399px;
     height: 328px;
@@ -375,10 +404,11 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 /* #region Div-6 */
 .six {
     background: #EFEFEF;
-    height: 780px;
+    height: 689px;
     padding-top: 91px;
     padding-left: 122px;
-    width: calc(100%-122px);
+    width: calc(100% - 122px);
+    margin-top: 121px;
 }
 
 .h2-kurs {
@@ -394,6 +424,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     width: 700px;
     height: 203px;   
     margin: 0 46px 10px 45px;
+    line-height: 150%;
 }
 
 .avatar {
@@ -402,7 +433,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 
 .comment {
     width: 791px;
-    height: 451px;
+    height: 411px;
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -432,7 +463,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 /* #region Div-7 */
 .seven {
     width: calc(100%-122px);
-    height: 780px;
+    height: 601px;
     background: #9DC9C8;
     padding-left: 122px;
     padding-top: 179px;
@@ -490,17 +521,17 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     font-size: 18px;
     width: 294px;
     height: 70px;
+    line-height: 101.38%;
 }
 /* #endregion */
 
 /* #region Div-8 */
 .eight {
-    width: 100%;
     height: 390px;
     background: #000000;
     color: white;    
     display: flex;
-    flex-direction: row;
+    width: 100%;
 }
 
 .sinx {
@@ -509,20 +540,20 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 }
 
 .contacts {
-    margin-left: 656px;
     margin-top: 54px;
+    margin-left: 656px;
 }
 
 .contactimg1 {
     margin-right: 22px;
     height: 27px;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
     width: 27px;    
 }
 
-
 .contactimg2 {
     margin-right: 22px;
+    padding-top: 6px;
     height: 18px;
     width: 27px;    
 }
@@ -534,14 +565,19 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 }
 
 .contact-info{
-    margin-top: 11px;
-    margin-right: 185px;
+    margin-top: 5px;
     width: 230px;
+    height: 40px;
+    font-size: 25px;
+    margin-bottom: 0;
 }
 
 .contact-info2{
     margin-top: 0px;
+    margin-bottom: 0;
     width: 269px;
+    height: 40px;
+    font-size: 25px;
 }
 
 .media {
@@ -1232,6 +1268,480 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 
 /* #region Mobile */
 @media screen and (min-width: 320px) and (max-width: 991px) {
+    body {
+        font-family: Roboto;
+        margin: 0px;
+        padding-top: 36px;  
+    }
+    
+    p{
+        text-align: left;
+        vertical-align: top;
+    }
 
+    .main {
+        display: flex;
+        flex-direction: column; 
+        width: 357px;   
+    }
+    
+    .top {
+        padding-left: 35px;
+    }
+    /* #region Div-1 */
+    .header {
+        display: flex;
+        flex-direction: row;
+        margin-top: 45.2px;   
+        padding: 0px;
+    }
+
+    .img1{
+        height: 30.75px;
+        width: 52.19px;
+    }
+
+    .globe{
+        margin-right: 3.7px;
+        height: 9px;
+        width: 10px;
+    }
+     
+    .clock{
+        margin-left: 11.65px;
+        margin-right: 4.6px; 
+        height: 10.25px;
+        width: 10.25px;
+    }
+    
+    .calendar{
+        margin-left: 13px;
+        margin-right: 6px;  
+        width: 9.32px;
+        height: 10.25px;              
+    }
+
+    .course-info{
+        font-size: 10px;
+        font-weight: 400;
+        padding: 0;
+        margin-top: 0px;
+        line-height: 11px;
+    }
+
+    .title-side {
+        display: flex;
+        flex-direction: column;        
+    }    
+
+    .kak {
+        font-weight: 700;
+        font-size: 37px;
+        font-family: Roboto Slab;
+        width: 292.63px;
+        height: 88.53px;        
+        line-height: 101.38%;
+        margin-top: 8px;
+    }
+
+    .za{
+        font-weight: 400;
+        font-size: 10px;
+        width: 212px;
+        height: 29px;
+        line-height: 15px;        
+        margin-top: 2.2px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .side-ellipse {
+        position: relative;
+        padding: 0px;        
+        margin-top: 0px ;
+        margin-left: 166px;
+    }
+
+    .side1 {        
+        width: 141.68px;
+        height: 165.1px;
+        position: absolute;
+        margin-left: 0px;
+    }
+
+    .ellipse1 {     
+        margin-top: 156px;
+        width: 127.68px;
+        height: 19px;
+        margin-left: 14px;
+    }
+    
+    .block{
+        height: 93px;
+        width: 225px;
+        margin-left: 0px;
+        margin-top: 38px;
+        padding: 0px;        
+        padding-top: 9px;
+        padding-left: 12.13px;
+        margin-bottom: 75px;
+        padding-bottom: 0px;
+    }
+    
+    .zritel{
+        font-size: 11px;
+        line-height: 14px;        
+        width: 200.64px;
+        height: 52px;        
+        margin-right: 12.59px;
+        font-family: Roboto Slab;
+    }
+    
+    .andrey{
+        font-weight: 400;
+        font-size: 10px;    
+        color: white;
+        width: 130.7px;
+        height: 21px;
+        margin: 14px 8px 0 87px;
+        text-align: right;
+        vertical-align: top;
+        font-family: Roboto;
+        line-height: 13px;                
+    }
+    /* #endregion */
+    
+    /* #region Div-2 */
+    .okurse{
+        width: 170.08px;
+        height: 43.34px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 101.38%;
+    }
+
+    .two-txt{        
+        height: 174.27px;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .two-top {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8.4px;
+    }
+
+    .two-p{
+        width: 308.47px;   
+    }
+
+    .poroy{        
+        font-size: 12px;
+        line-height: 150%;
+        margin: 0px;
+        margin-bottom: 16px;
+    }
+
+    .na{
+        font-size: 12px;
+        line-height: 150%;
+        margin: 0px;
+    }
+
+    .side2-ellipse{                        
+        margin-top: 56px;
+        margin-left: 66px;
+        position: relative;        
+    }
+
+    .side2{
+        width: 146.32px;
+        height: 146.78px;
+        margin-left: 12px;
+        margin-top: -25px;
+        position: absolute;           
+    }
+
+    .ellipse2{
+        width: 170.55px;
+        height: 27.49px;
+        margin-top: 132.8px;
+        margin-left: 0px;             
+    }
+
+    .two-div-img-2{
+        display: none;
+    }
+    
+    .two-bottom p{
+        width: 86px;
+        height: 18.17px;
+    }
+
+    .two-bottom{
+        margin-top: 45.7px;
+    }
+    
+    .two-texts{
+        display: flex;        
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 308px;        
+    }    
+
+    .sec-title{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 130%;        
+        margin: 0px;                
+    }
+
+    .sec-txt{
+        font-size: 10px;
+        line-height: 130%;
+        margin: 0px;
+        width: 86px;
+        height: 18px;
+    }
+
+    .two-txt-1{
+        margin-right: 33px;
+        margin-bottom: 34px;
+    }    
+
+    .two-txt-3{
+        margin-bottom: 0px;
+    }
+    /* #endregion */
+    
+    /* #region Div-3-4 */
+    .format{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 101.38%;
+        width: 310.8px;
+        height: 43.34px;
+        margin-top: 0px;
+    }        
+
+    .three{
+        margin-top: 76px;
+    }
+
+    #headers {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: #1E4681;
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-weight: 700;    
+        margin-top: 17px;        
+        line-height: 130%;
+    }
+
+    #vebinar{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    #dosnav{
+        margin: 0px;
+        margin-bottom: 19px;
+    }
+
+    .vebinar-title{
+        width: 69.9px;
+        height: 18.17px;
+        margin-top: 0px;
+    }
+
+    .vebinar-txt{
+        font-size: 10px;        
+        width: 180px;
+        height: 48px;
+    }
+
+    .dosnav-title{
+        margin-top: 0px;
+        width: 99.72px;
+        height: 18.17px;        
+    }
+
+    .dosnav-txt{
+        font-size: 10px;
+        width: 165px;
+        height: 51px;
+        margin: 0px;
+    }
+
+    .obw-title{
+        width: 69.9px;
+        height: 18.17px;
+        margin: 0px;
+    }
+
+    .obw-txt{
+        width: 159px;
+        height: 31px;
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+    
+    .chto{
+        width: 310.8px;
+        height: 43.34px;
+        margin-top: 0px;
+        font-size: 26px;
+        line-height: 101.38%;
+        text-align: left;
+        vertical-align: top;
+        margin-bottom: 9.66px;
+    }
+    
+    .four{
+        margin-top: 73px;
+    }
+
+    .only-list{
+        margin: 0px;
+        font-size: 12px;
+        line-height: 150%;
+        width: 299px;
+        height: 174px;
+        padding-left: 0px;
+        margin-left: 9px;
+    }
+    
+    .h2-programma{
+        width: 421.7px;
+        height: 43.34px;
+        font-size: 26px;
+        line-height: 101.38%;
+        margin-top: 85px;
+        margin-bottom: 35px;
+    }    
+    /* #endregion */
+
+    /* #region Div-5 */
+    .five{
+        height: 1391.84px;        
+        align-items: center;
+        margin: 0px;
+        padding-left: 35px;
+        margin-bottom: 47px;
+    }
+
+    .b{
+        width: 185.92px;
+        height: 152.84px;
+        margin-bottom: 24.16px;
+        border-radius: 15px;
+    }
+    
+    .bbb{
+        flex-direction: column;        
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .five-title{
+        font-size: 14px;
+        line-height: 130%;
+        margin-top: 0px;
+        margin-bottom: 14.91px;
+        width: 170px;
+        margin-left: 9px;
+    }
+
+    .five-txt{        
+        font-size: 12px;
+        line-height: 130%;
+        margin-bottom: 0px;
+        width: 170.08px;
+        margin-left: 9px;
+        height: 29.36px;
+    }
+
+    .block-img{
+        width: 185.92px;
+        height: 74.56px;        
+    }
+
+    .b78{
+        flex-direction: column;
+    }
+
+    .b8-title{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    /* #endregion */
+   
+    /* #region Div-6 */
+    .six{
+        margin-top: 0px;                
+        padding-left: 36px;
+        padding-top: 42px;
+        padding-right: 32px;
+        width: 376px;
+        height: 423px;
+        box-sizing: border-box;
+    }
+
+    .h2-kurs{
+        width: 257px;
+        height: 69px;            
+        font-size: 26px;
+        margin-left: 0px;
+        line-height: 101.38%;     
+        margin-bottom: 11px           
+    }
+
+    .comment{
+        width: 308px;
+        height: 248px;
+        padding: 18px 21px 0px 21px;
+        border-radius: 15px;       
+        margin-right: 0px;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+    }
+
+    .kurs{
+        width: 266px;
+        height: 111.01px;
+        font-size: 10px;
+        line-height: 150%;
+        margin: 0px;
+    }
+
+    .avatar{
+        width: 80px;
+        height: 84px;
+        margin: 0px;
+        margin-top: 21px;
+    }
+    
+    .kate-f{
+        margin-left: 13.63px;
+        margin-top: 39px;
+    }
+
+    .ekaterina{
+        width: 164.49px;
+        height: 32.73px;
+        font-size: 14px;
+        margin: 0px;
+        line-height: 101.38%;
+    }
+
+    .facebook{
+        width: 14.91px;
+        height: 17.2px;
+    }
+    /* #endregion */
 }
 /* #endregion */
