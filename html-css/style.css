@@ -616,15 +616,16 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 /* #endregion */
  
 
-
 /* #region Tablet */
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
 
 
     .img1 {
+
         height: 38.2px;
         width: 64.8px;
+        margin-top: 22px;
         border-radius: 0px;
     }
 
@@ -634,30 +635,41 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         padding-top: 22px;  
     }
     
+    .main {
+        display: flex;
+        flex-direction: column;    
+    }
+    
     .top {
         padding-left: 70.8px;
     }
     
     /* #region Div-1 */
     .header {
-        margin-top: 56.18px;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
     }
     
     .globe{
         /* margin-right: 8px; */
         height: 12.1px;
         width: 12.7px;
+        margin-top: 57.92px;
 
     }
     
     .clock{
         height: 12.7px;
         width: 12.7px;
+        margin-top: 57.92px;
     }
     
     .calendar{
         height: 12.7px;
         width: 11.5px;
+        margin-top: 57.92px;
+
     }
     
     .course-info{
@@ -668,7 +680,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         height: 18.5px;
         width: 75.2px;
         margin-left: 4.45px;
-        /* margin-top: 59px; */
+        margin-top: 59px;
         margin-right: 19px;
 
     }
@@ -851,11 +863,14 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         height: 117.5px;
         width: 134.3px;
 
+
     }
     
     .ellipse3 {
         height: 18.5px;
         width: 109.4px;
+        margin-left: 19.11px;
+        margin-top: 108.3px;
     }
     
     .two-bottom p{
@@ -866,20 +881,20 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     .two-texts{
         display: flex;
         flex-direction: row;
-        margin-left: 132px;
+        margin-left: 76.45px;
     }
 
 
     .sec-txt{
         font-weight: 400;
-        font-size: 18px;    
+        font-size: 11px;    
         margin: 0;
         line-height: 23px;
     }
     
     .sec-title{
         font-weight: 700;
-        font-size: 25px;
+        font-size: 15px;
         margin: 0px;
         line-height: 32px;
     }
@@ -892,101 +907,90 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     /* -----------------------------Zaur's part----------------------------------- */
     
     .format{    
-        margin-top: 162px;
-        height: 93px;
-        width: 667px;    
+        margin-top: 103.09px;
+        width: 386.3px;
+        height: 53.86px;   
+        font-size: 32px;
     }
     
     #headers {
         width: 100%;
-        display: flex;
         color: #1E4681;
-        font-family: 'Roboto';
-        font-size: 25px;
+        font-size: 15px;
         font-weight: 700;    
         margin-top: 89px;
     }
     
     #vebinar {
-        width: 150px;
-        height: 39px;
+        width: 86.88px;
+        height: 22.59px;
         margin-top: 0px;
     }
     
     #dosnav {
-        width: 214px;
-        height: 39px;
-        margin-left: 195px;
+        width: 123.94px;
+        height: 22.59px;
+        margin-left: 112.94px;
     }
     
     #obw {
-        width: 150px;
-        height: 39px;
-        margin-left: 170px;
+        width: 86.88px;
+        height: 22.59px;
+        margin-left: 98.46px;
     }
     
     .vebinars {
         display: flex;
-        font-size: 18px;
+        font-size: 11px;
         font-weight: 400;
-        width: 153px;
-        height: 22px;
         margin-top: 10px;
         color: #000000;
+        width: 153px;
+        height: 22px;
     }
     
     .dosnavs {
-        font-size: 18px;
+        font-size: 11px;
         font-weight: 400;
-        width: 271px;
-        height: 109px;
-        margin-top: 10px;
+        width: 172px;
+        height: 63px;
         margin-top: 10px;
         color: #000000;
     }
     
     .obws {
-        margin-top: 10px;
-        width: 245px;
-        height: 39px;
-        font-size: 18px;
+        width: 141.9px;
+        height: 22.59px;
+        font-size: 11px;
         font-weight: 400;
         margin-top: 10px;
         color: #000000;
     }
     
     .chto {
-        height: 93px;
-        width: 667px;
-        margin-top: 179px;
-        margin-bottom: 21px;
+        width: 386.3px;
+        height: 53.86px;
+        margin-top: 103.55px;
+        margin-bottom: 12.16px;
+        font-size: 32px;
     }
     
     .only-list{
         font-weight: 400;
-        font-size: 24px;
-        width: 662px;
-        height: 374px;
+        font-size: 14px;
+        width: 383.41px;
+        height: 216.61px;
         padding-left: 1px;
-        line-height: 36px;
-        list-style-type: none;
+        line-height: 21px;
     }
     
-    ul li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6) {
-        list-style: circle url("images/circle.svg");
-        margin-left: 15px;
-        padding-left: 1px;
-    }
     
-    ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
-        background: url("images/circle.svg") no-repeat left center;
-        padding-left: 16px;
-    }
     
     .h2-programma {
-        height: 93px;
-        width: 905px;
-        margin-top: 248px;
+        width: 524.15px;
+        height: 53.86px;
+        margin-top: 143.66px;
+        font-size: 32px;
     }
     
     
@@ -1001,37 +1005,42 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     
     /* #region Div-5 */
     .five {
-        display: flex;
-        flex-wrap: wrap;
-        width: 1308px;
-        height: 1070px;
-        margin-left: 84px;
+       
+        height: 619.71px;
+        margin-left: 48.65px;
     }
     
     .b {
         margin-right: 37px;
-        background: #FFFFFF;
-        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-        border-radius: 30px;
-        width: 399px;
-        height: 328px;
+        border-radius: 17.375px;
+        width: 231.09px;
+        height: 189.97px;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+
     }
     
     .five-title{
-        font-weight: 700;
-        font-size: 30px;
-        width: 365px;
-        margin-top: 11px;
-        margin-left: 20px;
-        margin-bottom: 32px;
+        font-size: 17px;
+        width: 211.4px;
+        height: 22.59px;
+        margin-top: 6.37px;
+        margin-left: 11.58px;
+        margin-bottom: 18.53px;
     }
     
+    .block-img {
+
+        width: 231.09px;
+        height: 92.67px;
+
+    }
+
     .five-txt{
-        font-weight: 400;
-        font-size: 25px;
-        margin-bottom: 23px;
-        margin-left: 19px;
-        margin-top: 0;
+        width: 211.4px;
+        height: 36.49px;
+        font-size: 14px;
+        margin-bottom: 13.32px;
+        margin-left: 11px;
     }
     
     .b8-title {
@@ -1042,34 +1051,38 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     /* #region Div-6 */
     .six {
         background: #EFEFEF;
-        height: 780px;
+        width: 834px;
+        height: 451.75px;
         padding-top: 91px;
         padding-left: 122px;
-        width: calc(100%-122px);
+        width: calc(100% - 70.8px);
     }
     
     .h2-kurs {
-        width: 987px;
-        height: 93px;
-        margin: 0 0 34px 0;
+        width: 571.64px;
+        height: 53.86px;
+        margin: 0 0 19.69px 0;
+        font-size: 32px;
     }
     
     .kurs{
         font-weight: 400;
-        font-size: 20px;
+        font-size: 12px;
         font-family: 'Roboto';
-        width: 700px;
-        height: 203px;   
-        margin: 0 46px 10px 45px;
+        width: 405.42px;
+        height: 117.57px;  
+        margin: 0 26.64px 5.79px 26.06px;
     }
     
     .avatar {
-        margin-left: 26px;
+        margin-left: 15.06px;
+        width: 110.04px;
+        height: 97.88px;
     }
     
     .comment {
-        width: 791px;
-        height: 451px;
+        width: 458.12px;
+        height: 261.2px;
         background: #FFFFFF;
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
@@ -1081,28 +1094,33 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         display: flex;
         flex-direction: row;
     }
+
+    .facebook {
+        width: 18.53px;
+        height: 17.95px;
+    }
     
     .kate-f {
-        margin-left: 30px;
+        margin-left: 17.38px;
     }
     
     .ekaterina {
         font-weight: 700;
-        font-size: 30px;
+        font-size: 17px;
         font-family: Roboto Slab;
-        width: 353px;
-        height: 59px;
-        margin: 50px 192px 0 0px;
+        width: 204.45px;
+        height: 34.17px;
+        margin: 28.96px 111.2px 0 0px;
     }
     /* #endregion */
     
     /* #region Div-7 */
     .seven {
-        width: calc(100%-122px);
-        height: 780px;
+        width: calc(100% - 70.66px);
+        height: 451.75px;
         background: #9DC9C8;
-        padding-left: 122px;
-        padding-top: 179px;
+        padding-left: 70.66px;
+        padding-top: 103.67px;
     }
     
     .description-7{
@@ -1113,14 +1131,19 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     
     .h2-nachalo {
         margin: 0px;
+        width: 525.88px;
+        height: 38.23px;
+        font-size: 32px;
     }
     
     .stoimost {
         font-family: 'Roboto';
         font-weight: 400;
-        font-size: 25px;
+        font-size: 14px;
         margin-top: 54px;    
         margin-bottom: 0px;
+        width: 98.46px;
+        height: 18.53px;
     }
     
     .description-b2{
@@ -1133,10 +1156,11 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     
     .price {
         font-weight: 400;
-        font-size: 80px;
+        font-size: 42px;
         margin-top: 0px;
         margin-bottom: 0px;
-        height: 155px;
+        width: 278.58px;
+        height: 104.83px;
     }
     
     .nachalo{
@@ -1147,23 +1171,22 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     
     .seven-small-title{    
         font-weight: 400;
-        font-size: 25px;
-        margin-top: 0px;
-        margin-bottom: 9px;
+        font-size: 14px;
+        margin-bottom: 5.21px;
     }
     
     .seven-small-txt{
         font-weight: 400;
-        font-size: 18px;
-        width: 294px;
-        height: 70px;
+        font-size: 10px;
+        width: 170.28px;
+        height: 40.54px;
     }
     /* #endregion */
     
     /* #region Div-8 */
     .eight {
+        height: 225.88px;
         width: 100%;
-        height: 390px;
         background: #000000;
         color: white;    
         display: flex;
@@ -1171,27 +1194,28 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
     
     .sinx {
-        margin-left: 122px;
-        margin-top: 50px;
+        margin-left: 70.66px;
+        margin-top: 28.96px;
     }
     
     .contacts {
-        margin-left: 656px;
+        margin-left: 593.65px;
         margin-top: 54px;
     }
     
     .contactimg1 {
-        margin-right: 22px;
-        height: 27px;
-        margin-bottom: 25px;
-        width: 27px;    
+        margin-right: 12.74px;
+        margin-bottom: 14.48px;
+        width: 15.64px;
+        height: 15.64px;
+        
     }
     
     
     .contactimg2 {
-        margin-right: 22px;
-        height: 18px;
-        width: 27px;    
+        margin-right: 12.74px;
+        width: 15.64px;
+        height: 10.43px;   
     }
     
     .contact {
@@ -1201,14 +1225,16 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
     
     .contact-info{
-        margin-top: 11px;
+        margin-top: 1px;
         margin-right: 185px;
         width: 230px;
+        font-size: 14px;
     }
     
     .contact-info2{
-        margin-top: 0px;
+        margin-top: 3px;
         width: 269px;
+        font-size: 14px;
     }
     
     .media {
@@ -1218,30 +1244,47 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
     
     .img2 {
-        margin-bottom: 30px;
+        margin-bottom: 17.38px;
+        width: 66.6px;
+        height: 39.38px;
     }
     
     .social-insta{
         margin-right: 18px;
+        width: 19.11px;
+        height: 19.11px;
     }
     
     .social-f{
         margin-right: 21px;
+        width: 18.53px;
+        height: 18.53px;
+
     }
     
     .social-vk{
         margin-right: 25px;
+        width: 20.27px;
+        height: 20.27px;
     }
     
     .bottom {
-        margin-top: 147px;
-        margin-bottom: 23px;
+        margin-top: 84.14px;
+        margin-bottom: 13.32px;
         font-weight: 400;
-        font-size: 18px;
-        width: 230px;
+        font-size: 10px;
+        width: 133.21px;
+        height: 23.17px;
+    }
+
+    .vp {
+        width: 19.69px;
+        height: 19.69px;
     }
 }
 /* #endregion */
+
+
 
 
 
