@@ -619,10 +619,8 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 
 
     .img1 {
-
         height: 38.2px;
         width: 64.8px;
-        margin-top: 22px;
         border-radius: 0px;
     }
 
@@ -630,11 +628,6 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         font-family: Roboto;
         margin: 0px;
         padding-top: 22px;  
-    }
-    
-    .main {
-        display: flex;
-        flex-direction: column;    
     }
     
     .top {
@@ -661,7 +654,6 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     .calendar{
         height: 12.7px;
         width: 11.5px;
-
     }
     
     .course-info{
