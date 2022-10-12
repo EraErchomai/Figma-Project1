@@ -622,7 +622,6 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 
         height: 38.2px;
         width: 64.8px;
-        margin-left: 70px;
         margin-top: 22px;
         border-radius: 0px;
     }
@@ -639,7 +638,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
     
     .top {
-        padding-left: 57.92px;
+        padding-left: 70.8px;
     }
     
     /* #region Div-1 */
@@ -651,23 +650,20 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         /* margin-right: 8px; */
         height: 12.1px;
         width: 12.7px;
-        margin-left: 70.4px;
-        /* margin-top: 57.92px; */
+        margin-top: 57.92px;
 
     }
     
     .clock{
         height: 12.7px;
         width: 12.7px;
-        /* margin-top: 57.92px; */
-        margin-left: 1px;
+        margin-top: 57.92px;
     }
     
     .calendar{
         height: 12.7px;
         width: 11.5px;
-        margin-left: -15px;
-        /* margin-top: 57.92px; */
+        margin-top: 57.92px;
 
     }
     
@@ -693,7 +689,6 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     h1 {
         height: 110px;
         width: 363.7px;
-        margin-left: 70.6px;
         border-radius: nullpx;
 
         font-weight: 700;
@@ -713,7 +708,6 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         margin-top: -11px;
         height: 36px;
         width: 264px;
-        margin-left: 71px;
         margin-top: -80px;
         border-radius: nullpx;
 
@@ -739,13 +733,13 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         margin-left: -160px;
         margin-top: 204px;
         border-radius: 0px;
-        
+    
     }
     
     .block {
         height: 115.8px;
         width: 280.1px;
-        margin-left: 237.1px;
+        margin-left: 160px;
         margin-top: 40px;
         border-radius: 2.8px;
         background: #1E4681;
@@ -769,7 +763,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         line-height: 18.2px;
         margin: 0 27.02px 0 0;
         padding-top: 11.15px;
-        padding-left: 15.08px;
+        padding-left: 10.08px;
         padding-right: 15.65px;
         padding-bottom: 39.24px;
     }
@@ -800,7 +794,6 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     .okurse{ 
         height: 53.8px;
         width: 211.3px;
-        margin-left: 70px;
         margin-top: 100.41px;
         border-radius: nullpx;
         font-size: 32px;
@@ -817,13 +810,11 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     
     .poroy{   
         margin: 0 0 53px 0;
-        margin-left: 70.08px;
         margin-bottom: 20px;
     }
     
     .na {
         margin: 0;
-        margin-left: 70.08px;
     }
     
     .two-top {
@@ -859,31 +850,19 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
     
     .two-bottom {
-        display: flex;
-        flex-direction: row;
-        margin-top: 94px;
+        margin-top: 54.44px;
     }
     
-    .two-div-img-2 {
-        position: relative;
-    }
     
     .side3 {
-        position: absolute;
         height: 117.5px;
         width: 134.3px;
-        margin-left: 70px;
-        margin-top: -190px;
-        border-radius: 0px;
 
     }
     
     .ellipse3 {
-        margin-top:-30px;
         height: 18.5px;
         width: 109.4px;
-        margin-left: 90px;
-
     }
     
     .two-bottom p{
@@ -894,7 +873,6 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     .two-texts{
         display: flex;
         flex-direction: row;
-        margin-top: 70px;
         margin-left: 132px;
     }
 
@@ -1270,6 +1248,8 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
 }
 /* #endregion */
+
+
 
 /* #region Mobile */
 @media screen and (min-width: 320px) and (max-width: 991px) {
