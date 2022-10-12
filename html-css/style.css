@@ -531,16 +531,19 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     background: #000000;
     color: white;    
     display: flex;
+    flex-direction: column;
     width: 100%;
+    padding-left: 122px;
+    padding-top: 50px;
+    box-sizing: border-box;
 }
 
-.sinx {
-    margin-left: 122px;
-    margin-top: 50px;
+.eight-top{
+    display: flex;
+    flex-direction: row;    
 }
 
-.contacts {
-    margin-top: 54px;
+.contacts {    
     margin-left: 656px;
 }
 
@@ -605,9 +608,10 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 .bottom {
     margin-top: 147px;
     margin-bottom: 23px;
+    width: 230px;
+    height: 40px;
     font-weight: 400;
     font-size: 18px;
-    width: 230px;
 }
 /* #endregion */
  
@@ -619,10 +623,8 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 
 
     .img1 {
-
         height: 38.2px;
         width: 64.8px;
-        margin-top: 22px;
         border-radius: 0px;
     }
 
@@ -632,41 +634,30 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         padding-top: 22px;  
     }
     
-    .main {
-        display: flex;
-        flex-direction: column;    
-    }
-    
     .top {
         padding-left: 70.8px;
     }
     
     /* #region Div-1 */
     .header {
-        display: flex;
-        flex-direction: row;
-        padding: 0px;
+        margin-top: 56.18px;
     }
     
     .globe{
         /* margin-right: 8px; */
         height: 12.1px;
         width: 12.7px;
-        margin-top: 57.92px;
 
     }
     
     .clock{
         height: 12.7px;
         width: 12.7px;
-        margin-top: 57.92px;
     }
     
     .calendar{
         height: 12.7px;
         width: 11.5px;
-        margin-top: 57.92px;
-
     }
     
     .course-info{
@@ -677,7 +668,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         height: 18.5px;
         width: 75.2px;
         margin-left: 4.45px;
-        margin-top: 59px;
+        /* margin-top: 59px; */
         margin-right: 19px;
 
     }
@@ -1618,6 +1609,8 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         height: 1391.84px;        
         align-items: center;
         margin: 0px;
+        width: 375px;
+        box-sizing: border-box;
         padding-left: 35px;
         margin-bottom: 47px;
     }
@@ -1729,6 +1722,166 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     .facebook{
         width: 14.91px;
         height: 17.2px;
+    }
+
+    /* #endregion */
+
+    /* #region Div-7 */
+    .seven{
+        width: 376px;
+        height: 363px;
+        box-sizing: border-box;  
+        padding-left: 34px;    
+        padding-top: 62px;
+        padding-right: 32px;
+    }
+
+    .h2-nachalo{
+        width: 224px;
+        height: 63px;            
+        font-size: 26px;
+        line-height: 101.38%;
+    }
+
+    .stoimost{
+        width: 79.22px;
+        height: 14.91px;
+        font-size: 12px;
+        line-height: 101.38%;
+        margin-top: 22.23px;
+    }
+
+    .price{
+        width: 224.13px;
+        height: 84.34px;
+        font-size: 37px;
+        line-height: 101.38%;
+    }
+
+    .seven-small-title{
+        width: 138px;
+        height: 14.9px;
+        font-size: 12px;
+        line-height: 101.38%;
+        margin-bottom: 5px;
+    }
+
+    .seven-small-txt{
+        width: 140px;
+        margin-top: 0px;
+        height: 47px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;        
+    }
+
+    .description-b1{
+        margin-right: 31px;
+    }
+
+    .description-b2{
+        margin-right: 0px;
+    }
+
+    /* #endregion */
+
+    /* #region Div-8 */
+    .eight{
+        width: 375px;
+        height: 251px;
+        padding-left: 38px;
+        padding-top: 23px;
+        box-sizing: border-box;
+    }
+
+    .eight-top{
+        flex-direction: column;
+    }
+    
+    .media{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .img2{
+        width: 53.59px;
+        height: 31.69px;
+        margin-bottom: 14px;
+    }
+
+    .social-insta{
+        width: 15.38px;
+        height: 15.38px;
+        margin-right: 8.4px;
+    }
+
+    .social-f{
+        width: 14.91px;
+        height: 14.91px;
+        margin-right: 9.8px;
+    }
+
+    .social-vk{
+        width: 16.31px;
+        height: 16.31px;
+        margin-right: 11.65px;
+    }
+
+    .vp{
+        width: 15.84px;
+        height: 15.84px;
+    }
+
+    .bottom{
+        width: 141px;
+        height: 19px;            
+        font-size: 10px;
+        line-height: 101.38%;
+        margin-top: 48px;       
+        margin-bottom: 10px; 
+    }
+
+    .contacts{
+        margin-left: 0px;
+        margin-top: 47.66px;
+    }
+
+    .contact-info2{
+        width: 125.35px;
+        height: 18.64px;        
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%;
+    }
+
+    .contact-info{
+        width: 107.17px;
+        height: 18.64px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%;
+    }
+
+    .contactimg1{
+        width: 12.58px;
+        height: 12.58px;
+        margin-right: 10.25px;
+        margin-bottom: 11.65px;
+        margin-top: 3px;
+    }
+
+    .contactimg2{
+        width: 12.58px;
+        height: 8.39px;
+        margin-right: 10.25px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+    .contact{
+        margin-bottom: 1px;
+
     }
     /* #endregion */
 }
