@@ -612,6 +612,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 /* #endregion */
  
 
+
 /* #region Tablet */
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
@@ -619,9 +620,9 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
 
     .img1 {
 
-        height: 38.22500228881836px;
-        width: 64.86666870117188px;
-        margin-left: 70.0791015625px;
+        height: 38.2px;
+        width: 64.8px;
+        margin-left: 70px;
         margin-top: 22px;
         border-radius: 0px;
     }
@@ -650,23 +651,23 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     
     .globe{
         /* margin-right: 8px; */
-        height: 12.162500381469727px;
-        width: 12.741668701171875px;
-        margin-left: 70.4591015625px;
+        height: 12.1px;
+        width: 12.7px;
+        margin-left: 70.4px;
         margin-top: 57.92px;
 
     }
     
     .clock{
-        height: 12.741668701171875px;
-        width: 12.741668701171875px;
+        height: 12.7px;
+        width: 12.7px;
         margin-top: 57.92px;
         margin-left: 1px;
     }
     
     .calendar{
-        height: 12.741668701171875px;
-        width: 11.583334922790527px;
+        height: 12.7px;
+        width: 11.5px;
         margin-left: -15px;
         margin-top: 57.92px;
 
@@ -677,8 +678,8 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         font-weight: 400;
         padding: 0;
         margin: 3px 0 0;
-        height: 18.533334732055664px;
-        width: 75.29167175292969px;
+        height: 18.5px;
+        width: 75.2px;
         margin-left: 4.45px;
         margin-top: 59px;
         margin-right: 19px;
@@ -692,9 +693,9 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
     
     h1 {
-        height: 110.04167175292969px;
-        width: 363.7166748046875px;
-        margin-left: 70.658203125px;
+        height: 110px;
+        width: 363.7px;
+        margin-left: 70.6px;
         border-radius: nullpx;
 
         font-weight: 700;
@@ -726,8 +727,8 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     
     .side1 {
         position: absolute;
-        height: 206.183349609375px;
-        width: 176.06668090820312px;
+        height: 206.1px;
+        width: 176px;
         margin-left: -180px;
         margin-top: 10px;
         border-radius: 0px;
@@ -735,8 +736,8 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
     
     .ellipse1 {
-        height: 23.745834350585938px;
-        width: 158.69166564941406px;
+        height: 23.7px;
+        width: 158.6px;
         margin-left: -160px;
         margin-top: 204px;
         border-radius: 0px;
@@ -744,19 +745,24 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
     
     .block {
-        height: 115.83332897226px;
-        width: 280.1052384313789px;
-        margin-left: 237.1031494140625px;
+        height: 115.8px;
+        width: 280.1px;
+        margin-left: 237.1px;
         margin-top: 40px;
-        border-radius: 2.8958334922790527px;
+        border-radius: 2.8px;
         background: #1E4681;
+        
+     
+        /* padding-top: 19.26px;
+        padding-left: 26.03px;
+        margin-bottom: 173.36px; */
     }
     
     .zritel{
-        height: 65.44583892822266px;
-        width: 249.3825225830078px;
-        margin-left: 252.1787109375px;
-        margin-top: 407.0766830444336px;
+        height: 65.4px;
+        width: 249.3px;
+        margin-left: 252.1px;
+        margin-top: 407px;
         border-radius: nullpx;
         font-weight: 400;
         font-size: 14px;
@@ -771,8 +777,8 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
     
     .andrey{
-        height: 26.43401336669922px;
-        width: 162.45594787597656px;
+        height: 26.4px;
+        width: 162.4px;
         margin-top: -26px;
         margin-left: 108px;
         margin-right: 9.42px;
@@ -794,9 +800,9 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     }
     
     .okurse{ 
-        height: 53.86250305175781px;
-        width: 211.39585876464844px;
-        margin-left: 70.0791015625px;
+        height: 53.8px;
+        width: 211.3px;
+        margin-left: 70px;
         margin-top: 100.41px;
         border-radius: nullpx;
         font-size: 32px;
@@ -841,17 +847,17 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         position: absolute;
         top: 24px;
         height: 182.4375px;
-        width: 181.85833740234375px;
-        margin-left: 115.529541015625px;
+        width: 181.8px;
+        margin-left: 115.5px;
         margin-top: 20px;
 
     }
     
     .ellipse2 {
         margin-top: 210px;
-        margin-left: 100.529541015625px;
-        height: 34.170833587646484px;
-        width: 211.9750213623047px;
+        margin-left: 100.5px;
+        height: 34.1px;
+        width: 211.9px;
     }
     
     .two-bottom {
@@ -866,25 +872,25 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     
     .side3 {
         position: absolute;
-        height: 117.57083892822266px;
-        width: 134.36668395996094px;
-        margin-left: 70.0791015625px;
+        height: 117.5px;
+        width: 134.3px;
+        margin-left: 70px;
         margin-top: -190px;
         border-radius: 0px;
 
     }
     
     .ellipse3 {
-        margin-top: -190px;
-        height: 18.533334732055664px;
-        width: 109.46250915527344px;
-        margin-left: 90.0791015625px;
+        margin-top:-30px;
+        height: 18.5px;
+        width: 109.4px;
+        margin-left: 90px;
 
     }
     
     .two-bottom p{
-        height: 39px;
-        width: 150px;
+        height: 22.59px;
+        width: 186.88px;
     }
     
     .two-texts{
@@ -893,7 +899,8 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         margin-top: 70px;
         margin-left: 132px;
     }
-    
+
+
     .sec-txt{
         font-weight: 400;
         font-size: 18px;    
