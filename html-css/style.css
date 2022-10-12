@@ -4,7 +4,7 @@
 body {
     font-family: Roboto;
     margin: 0px;
-    padding-top: 21px;  
+    padding-top: 21px; 
 }
 
 p {
@@ -1088,14 +1088,7 @@ h2 {
 /* #region Mobile */
 @media screen and (min-width: 320px) and (max-width: 991px) {
     body {
-        font-family: Roboto;
-        margin: 0px;
         padding-top: 36px;  
-    }
-    
-    p{
-        text-align: left;
-        vertical-align: top;
     }
 
     .main {
