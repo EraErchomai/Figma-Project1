@@ -644,9 +644,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
     
     /* #region Div-1 */
     .header {
-        display: flex;
-        flex-direction: row;
-        padding: 0px;
+        margin-top: 56.18px;
     }
     
     .globe{
@@ -654,14 +652,14 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         height: 12.1px;
         width: 12.7px;
         margin-left: 70.4px;
-        margin-top: 57.92px;
+        /* margin-top: 57.92px; */
 
     }
     
     .clock{
         height: 12.7px;
         width: 12.7px;
-        margin-top: 57.92px;
+        /* margin-top: 57.92px; */
         margin-left: 1px;
     }
     
@@ -669,7 +667,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         height: 12.7px;
         width: 11.5px;
         margin-left: -15px;
-        margin-top: 57.92px;
+        /* margin-top: 57.92px; */
 
     }
     
@@ -681,7 +679,7 @@ ul li:nth-child(1), li:nth-child(2), li:nth-child(7)  {
         height: 18.5px;
         width: 75.2px;
         margin-left: 4.45px;
-        margin-top: 59px;
+        /* margin-top: 59px; */
         margin-right: 19px;
 
     }
