@@ -2,13 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
         <title>Figma NMZ</title>
         <link rel="stylesheet" href="./style.css">
     </head>
 <body>
 <div class="main">
     <div class="top">
+        <div class="one">
                 <img src="images/img1.svg" class="img1" alt="">
             <div class="header">
                 <img src="images/globe.svg" class="globe" alt="">
@@ -24,15 +24,17 @@
                     <p class="za">За 8 занятий станем активными зрителями и разберёмся в кинопроцессе</p>
                 </div>
                 <div class="side-ellipse">
-                    <img src="images/side1.svg" class="side1" alt="">
-                    <img src="images/ellipse1.svg" class="ellipse1" alt="">
+                    <img src="images/side1-ellipse.svg" class="side1" alt="">
                 </div>
             </div>
             <div class="block">
-                <p class="zritel">Зритель для меня <br>не потребитель моей продукции, не судья, а соучастник творчества, соавтор.</p>
-                <p class="andrey">Андрей Тарковский</p>
+                <div class="block-zr"><p class="zritel">Зритель для меня не потребитель моей продукции, не судья, а соучастник творчества, соавтор.</p></div>
+                <div class="block-an"><p class="andrey">Андрей Тарковский</p></div>
             </div>
+        </div>
 
+        <div class="two">
+            <div class="two-first">
             <h2 class="okurse">О курсе</h2>
             <div class="two-top">
                 <div class="two-txt">
@@ -47,11 +49,11 @@
                     <img src="images/side2-ellipse.svg" class="side2" alt="">          
                 </div>
             </div>
+            </div>
 
             <div class="two-bottom">
                 <div class="two-div-img-2">
-                    <img src="images/side3.svg" class="side3" alt="">
-                    <img src="images/ellipse3.svg" class="ellipse3" alt="">
+                    <img src="images/side3-ellipse.svg" class="side3" alt="">
                 </div>
                 <div class="two-texts">
                     <div class="two-txt-1">
@@ -70,21 +72,22 @@
                     </div>
                 </div>
             </div>
-        
+        </div>
+
         <div class="three">
             <h2 class="format">Формат занятий</h2>
-            <div id = "headers">
+            <div class = "headers">
                 <div id = "vebinar">
                     <p class="vebinar-title">Вебинары</p>
                     <p class = "vebinar-txt">Занятия проходят онлайн в режиме вебинаров с преподавателем</p>
                 </div>
                 
-                <div id = "dosnav">
+                <div class = "dosnav">
                     <p class="dosnav-title">Доступ навсегда</p>
                     <p class = "dosnav-txt">Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете</p>
                 </div>
                 
-                <div id = "obw">
+                <div class = "obw">
                     <p class="obw-title">Общение</p>
                     <p class = "obw-txt">Вы можете задать вопрос преподавателю на занятии</p>
                 </div>
@@ -104,10 +107,9 @@
             </ul>
         </div>
 
-        <h2 class="h2-programma">Программа курса</h2>
+        <div class="four-h2"><h2 class="h2-programma">Программа курса</h2></div>
     </div>
-
-    <!--Bottom-->
+    <div class="main-bottom">
         <div class="five">
             <div class="five-blocks">
                 <div class="b b1">
@@ -154,6 +156,7 @@
         </div>
 
         <div class="six">
+            <div class="six-all">
                 <h2 class="h2-kurs">Курс прошло уже 1616 человек</h2>
             <div class="comment">
                 <p class="kurs">Курс профессионально подготовлен, изложение материала весьма доступное, 
@@ -170,6 +173,7 @@
                     <p class="ekaterina">Екатерина Палехова</p>
                     <img src="images/facebook.svg" class="facebook" alt="">
                 </div>    
+            </div>
             </div>
             </div>
         </div>
@@ -217,6 +221,7 @@
 
             <p class="bottom">© Синхронизация, 2020</p>
         </div>
+    </div>
     </div>
 </body>
 </html>
