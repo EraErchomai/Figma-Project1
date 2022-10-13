@@ -624,9 +624,11 @@ h2 {
         margin: 0px;
     }
 
-    .side2{
-        margin-left: 12px;
+    .side2-ellipse {
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 56px;
+        margin-bottom: 30px;
     }
 
 
@@ -738,13 +740,16 @@ h2 {
         box-shadow: 3px 3px 20px rgb(0 0 0 / 25%);
     }
 
+    .b8-title {
+        margin-bottom: 0;
+    }
+
     .block-img {
         width: 500px;
     }
 
     .five-title{
         font-size: 35px;
-        margin-bottom: 40px;
     }
     
     .five-txt{
