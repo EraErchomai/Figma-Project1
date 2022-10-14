@@ -500,6 +500,10 @@ h2 {
 /* #region Mobile */
 @media screen and (min-width: 320px) and (max-width: 991px) {
 
+    .course-info {
+        font-size: 23px;
+    }
+
     h1 {
         width: 90vw;
         font-size: 110px;
@@ -508,7 +512,7 @@ h2 {
     .h1-bottom {
         width: 57vw;
         margin-bottom: 40px;
-        font-size: 23px;
+        font-size: 25px;
     }
 
     .side1 {
@@ -576,12 +580,12 @@ h2 {
 
     .course-title{       
         margin: 0px; 
-        font-size: 28px;               
+        font-size: 29px;               
     }
 
     .course-txt{
         margin: 0px;
-        font-size: 20px; 
+        font-size: 23px; 
     }
 
     .format{
@@ -600,7 +604,7 @@ h2 {
 
     .headers-txt{
         margin-bottom: 30px;
-        font-size: 20px;
+        font-size: 23px;
     }
     
     .headers-title {    
@@ -608,8 +612,8 @@ h2 {
     }
 
     .list {
-        width: 60vw;
-        font-size: 28px;
+        width: 65vw;
+        font-size: 29px;
     }
     
     .h2-programma{
