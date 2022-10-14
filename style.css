@@ -27,10 +27,6 @@ p {
     width: calc(100vw - 122px);
 }
 
-/* .main-bottom {
-    width: calc(100vw - 122px);
-} */
-
 /* #region Div-1 */
 .header {
     display: flex;
