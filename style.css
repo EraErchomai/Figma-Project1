@@ -87,6 +87,7 @@ h1 {
 
 .block {
     width: 45vw;
+    max-width: 600px;
     height: 180.74px;
     background: #1E4681;
     border-radius: 5px;
