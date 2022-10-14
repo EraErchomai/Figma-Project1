@@ -12,22 +12,12 @@ html {
     overflow-x: hidden;
 }
 
-p {
-    vertical-align: top;
-    text-align: left;
-}
-
-.main {
-    display: flex;
-    flex-direction: column; 
-}
-
 .top {
     padding-left: 110px;
     width: calc(100vw - 110px);
 }
 
-/* #region Div-1 */
+/* HEADER */
 .header {
     display: flex;
     flex-direction: row;
@@ -56,10 +46,10 @@ p {
     margin: 3px 0 0;
 }
 
+/* first paragraph */
 .title-side {
     display: flex;
     flex-direction: row;
-    margin-left: 1px;
 }
 
 h1 {
@@ -72,14 +62,13 @@ h1 {
     margin-top: 43px;
 }
 
-.za{
+.h1-bottom {
     font-weight: 400;
     font-size: 20px;
-    width: 29vw;
+    width: 35vw;
     line-height: 150%;
     margin-top: 10px;
 }
-
 
 .side1 {
     width: 22vw;
@@ -87,48 +76,43 @@ h1 {
 
 .block {
     width: 45vw;
-    max-width: 600px;
+    max-width: 450px;
     height: 180.74px;
     background: #1E4681;
     border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 67px auto 0 auto;
     padding-top: 19.26px;
     padding-left: 26.03px;
-    margin-top: 67.62px;
     display: flex;
     flex-direction: column;
 }
 
-.zritel {
+.block p {
+    font-family: Roboto Slab;
+    line-height: 130%;
+    color: white;
+}
+
+.block-txt {
     font-weight: 400;
     font-size: 25px;
-    font-family: Roboto Slab;
-    color: white;
-    line-height: 130%;
     margin: 0;
     margin-bottom: 26px;
 }
 
-.block-zr {
+.block-div-txt {
     width: 95%;
     height: 68%;
 }
 
-.andrey{
+.block-bottom {
     font-weight: 400;
     font-size: 20px;
-    color: white;
     text-align: right;
-    font-family: Roboto Slab;
-    line-height: 130%;
-    margin: 0;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin: 10px 20px 0 0;
 }
-/* #endregion */
 
-/* #region Div-2-3-4 */
+/* main paragraph */
 h2 {
     font-weight: 700;
     font-size: 55px;
@@ -136,79 +120,70 @@ h2 {
     margin-top: 100px;
 }
 
-
-.two-p {
+.course-top p {
     line-height: 150%;
     font-weight: 400;
     font-size: 24px;
     width: 46vw;
     margin-right: 50px;
+    margin-bottom: 0;
 }
 
-.poroy{   
+.course-txt1{   
     margin: 0 0 45px 0;
 }
 
-.na {
-    margin: 0;
-}
-
-.two-top {
+.course-top {
     margin-top: 18px;
     display: flex;
     justify-content: space-between;
 }
 
 .side2 {
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin: 50px 50px 0 50px;
 }
 
-.two-first {
+.course-first {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.two-bottom {
+.course-bottom {
     display: flex;
     margin-top: 50px;
 }
 
-.two-div-img-2 {
-    margin-right: 50px;
+.course-side3 {
+    margin-right: 80px;
 }
 
-.two-bottom p{
+.course-bottom p{
     width: 15vw;
     line-height: 130%;
     margin-right: 20px;
 }
 
-.two-texts{
+.course-texts{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 70px;
 }
 
-.sec-txt{
+.course-txt2 {
     font-weight: 400;
     font-size: 18px;    
     margin: 0;
 }
 
-.sec-title{
+.course-title{
     font-weight: 700;
     font-size: 25px;
     margin: 0px;
 }
 
-/* -----------------------------Zaur's part----------------------------------- */
-/* -----------------------------Zaur's part----------------------------------- */
-/* -----------------------------Zaur's part----------------------------------- */
-
+/* course format */
 .format{    
     margin-top: 162px;
     height: 93px;
@@ -229,13 +204,13 @@ h2 {
     width: 20vw;
 }
 
-.vebinar-title {    
+.headers-title {    
     height: 39px;
     margin-bottom: 1px;
     margin-top: 0;
 }
 
-.vebinar-txt{
+.headers-txt{
     color: black;
     margin-top: 0px;
     font-size: 18px;
@@ -244,41 +219,8 @@ h2 {
     margin-bottom: 0;
 }
 
-.dosnav-title {    
-    margin-bottom: 1px;
-    margin-top: 0;
-}
-
-.dosnav-txt{
-    color: black;
-    margin-top: 0px;
-    font-size: 18px;
-    line-height: 130%;
-    font-weight: 400;
-    margin-bottom: 0;
-}
-
-.obw {
-    margin-right: 20px;
-}
-
-.obw-title{    
-    height: 39px;
-    margin-bottom: 1px;
-    margin-top: 0;
-}
-
-.obw-txt{
-    color: black;
-    margin-top: 0px;
-    height: 39px;
-    font-size: 18px;
-    line-height: 130%;
-    font-weight: 400;
-    margin-bottom: 0;
-}
-
-.only-list{
+/* list */
+.list{
     font-weight: 400;
     font-size: 24px;
     width: 46vw;
@@ -287,24 +229,12 @@ h2 {
     margin-left: 17px;
 }
 
-.h2-programma {
-        margin-bottom: 80px;
-    }
-
-/* -----------------------------Zaur's part----------------------------------- */
-/* -----------------------------Zaur's part----------------------------------- */
-/* -----------------------------Zaur's part----------------------------------- */
-
-
-/* #endregion */
-
-/* #region Div-5 */
-
-.five {
-    margin-left: 20px;
+/* 8 blocks */
+.blocks {
+    margin-top: 80px;
 }
 
-.five-blocks {
+.eight-blocks {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -325,7 +255,7 @@ h2 {
     width: 370px;
 }
 
-.five-title{
+.blocks-title{
     font-weight: 700;
     font-size: 30px;
     margin-top: 11px;
@@ -333,7 +263,7 @@ h2 {
     margin-bottom: 32px;
 }
 
-.five-txt{
+.blocks-txt{
     font-weight: 400;
     font-size: 25px;
     margin-bottom: 23px;
@@ -344,10 +274,9 @@ h2 {
 .b8-title {
     margin-bottom: 0;
 }
-/* #endregion */
 
-/* #region Div-6 */
-.six {
+/* comment */
+.comment-div {
     background: #EFEFEF;
     padding-top: 91px;
     padding-left: 122px;
@@ -356,16 +285,14 @@ h2 {
     padding-bottom: 110px;
 }
 
-.h2-kurs {
-    /* height: 93px; */
+.h2-course {
     width: 69vw;
     margin: 0 0 34px 0;
 }
 
-.kurs{
+.course-comment{
     font-weight: 400;
     font-size: 20px;
-    font-family: 'Roboto';
     width: 89%;  
     margin: 0 46px 10px 45px;
     line-height: 150%;
@@ -380,10 +307,7 @@ h2 {
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    /* margin-bottom: 111px; */
+    padding: 40px 10px 20px 0;
 }
 
 .avatar-txt {
@@ -401,10 +325,9 @@ h2 {
     font-family: Roboto Slab;
     margin: 50px 0 0 0px;
 }
-/* #endregion */
 
-/* #region Div-7 */
-.seven {
+/* information */
+.info {
     width: 100vw;
     height: 601px;
     background: #9DC9C8;
@@ -413,18 +336,18 @@ h2 {
     width: calc(100vw - 122px);
 }
 
-.description-7{
+.description-info{
     display: flex;
     flex-direction: row;
     margin: 0px;    
 }
 
-.h2-nachalo {
+.h2-info {
     margin: 0px;
     width: 64vw;
 }
 
-.stoimost {
+.price-txt {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 25px;
@@ -432,7 +355,7 @@ h2 {
     margin-bottom: 0px;
 }
 
-.description-b1{
+.description-info1{
     margin-right: 70px;
 }
 
@@ -444,33 +367,26 @@ h2 {
     height: 155px;
 }
 
-.nachalo{
-    font-weight: 700;
-    font-size: 55px;
-    font-family: Roboto Slab;
-}
-
-.description-7 p {
+.description-info p {
     width: 21vw;
 }
 
-.seven-small-title{    
+.info-title{    
     font-weight: 400;
     font-size: 25px;
     margin-top: 0px;
     margin-bottom: 9px;
 }
 
-.seven-small-txt{
+.info-txt{
     font-weight: 400;
     font-size: 18px;
     height: 70px;
     line-height: 101.38%;
 }
-/* #endregion */
 
-/* #region Div-8 */
-.eight {
+/* last */
+.last {
     background: #000000;
     color: white;    
     display: flex;
@@ -480,7 +396,7 @@ h2 {
     width: calc(100vw - 122px);
 }
 
-.eight-top{
+.last-top{
     display: flex;
     flex-direction: row; 
     justify-content: space-between;  
@@ -491,14 +407,12 @@ h2 {
     margin-right: 22px;
     height: 27px;
     margin-bottom: 22px;
-    /* width: 27px;     */
 }
 
 .contactimg2 {
     margin-right: 22px;
     padding-top: 6px;
     height: 18px;
-    /* width: 27px;     */
 }
 
 .contact {
@@ -509,7 +423,6 @@ h2 {
 
 .contact-info{
     margin-top: 5px;
-    width: 230px;
     height: 40px;
     font-size: 25px;
     margin-bottom: 0;
@@ -518,7 +431,6 @@ h2 {
 .contact-info2{
     margin-top: 0px;
     margin-bottom: 0;
-    width: 19vw;
     height: 40px;
     font-size: 25px;
 }
@@ -552,13 +464,33 @@ h2 {
     font-weight: 400;
     font-size: 18px;
 }
-/* #endregion */
  
-
 /* #region Tablet */
 
-@media screen and (min-width: 992px) and (max-width: 1279px) {
+@media screen and (min-width: 992px) and (max-width: 1253px) {
        
+    .eight-blocks {
+        justify-content: center;
+    }
+
+    .b {
+        box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
+        border-radius: 30px;
+        width: 430px;
+        height: 380px; 
+    }
+
+    .block-img {
+        width: 430px;
+    }
+
+    .blocks-title{
+        font-size: 35px;
+    }
+
+    .blocks-txt{
+        font-size: 28px;
+    }
 
 }
 /* #endregion */
@@ -572,14 +504,16 @@ h2 {
         font-size: 110px;
     }
 
-    .za {
-        width: 40vw;
+    .h1-bottom {
+        width: 57vw;
         margin-bottom: 40px;
         font-size: 23px;
     }
 
     .side1 {
         width: 30vw;
+        float: right;
+        margin-right: 60px;
     }
 
     .title-side {
@@ -588,15 +522,15 @@ h2 {
     }    
     
     .block{
-        margin-top: 40px;
+        margin: 40px 0 0 0;
         padding-bottom: 0px;
     }
     
-    .zritel{   
+    .block-txt{   
         margin-right: 12.59px;
     }
 
-    .two-top {
+    .course-top {
         flex-direction: column;
         margin-top: 8.4px;
     }
@@ -605,76 +539,53 @@ h2 {
         font-size: 60px;
     }
 
-    .two-p {
+    .course-top p {
         width: 70vw;
         font-size: 30px;
-    }
-
-    .poroy{        
         line-height: 150%;
         margin: 0px;
+    }
+
+    .course-txt1 {        
         margin-bottom: 16px;
     }
 
-    .na{
-        line-height: 150%;
-        margin: 0px;
-    }
-
     .side2-ellipse {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 56px;
-        margin-bottom: 30px;
+        margin: 56px auto 30px auto;
     }
 
-
-    .two-div-img-2{
+    .course-side3{
         display: none;
     }
 
-
-    .two-bottom{
+    .course-bottom{
         margin-top: 45.7px;
     }
     
-    .two-texts{
+    .course-texts{
         display: flex;        
         flex-wrap: wrap;
         margin-top: 0px;
         margin-left: 0px;      
     }    
 
-    .two-bottom p{
+    .course-bottom p{
         width: 20vw;
     }
 
-    .sec-title{       
+    .course-title{       
         margin: 0px; 
         font-size: 28px;               
     }
 
-    .sec-txt{
+    .course-txt{
         margin: 0px;
         font-size: 20px; 
     }
 
-    .two-txt-1{
-        margin-right: 33px;
-        margin-bottom: 34px;
-    }    
-
-    .two-txt-3{
-        margin-bottom: 0px;
-    }
-
     .format{
-        margin-top: 0px;
+        margin-top: 100px;
     }        
-
-    .three{
-        margin-top: 76px;
-    }
 
     .headers {
         flex-direction: column;  
@@ -686,34 +597,16 @@ h2 {
         width: 50vw;
     }
 
-    .vebinar-txt{
+    .headers-txt{
         margin-bottom: 30px;
         font-size: 20px;
     }
     
-    .dosnav-title {    
+    .headers-title {    
         margin-bottom: 10px;
     }
-    
-    .dosnav-txt{
-        margin-bottom: 30px;
-        font-size: 20px;
-    }
 
-    .obw-txt{
-        font-size: 20px;
-    }
-
-    .chto {
-        margin-top: 0px;
-        margin-bottom: 9.66px;
-    }
-    
-    .four {
-        margin-top: 73px;
-    }
-
-    .only-list {
+    .list {
         width: 60vw;
         font-size: 28px;
     }
@@ -723,8 +616,7 @@ h2 {
         margin-bottom: 35px;
     }    
 
-    .five-blocks {
-        display: flex;
+    .eight-blocks {
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
@@ -745,20 +637,24 @@ h2 {
         width: 500px;
     }
 
-    .five-title{
+    .blocks-title{
         font-size: 35px;
     }
     
-    .five-txt{
+    .blocks-txt{
         font-size: 28px;
         margin-bottom: 10px;
     }
 
-    .kurs{
-        font-size: 23px;
+    .course-comment {
+        font-size: 25px;
     }
 
-    .eight-top{
+    .comment {
+        width: 78vw;
+    }
+
+    .last-top {
         flex-direction: column;
     }
 
@@ -766,24 +662,44 @@ h2 {
         font-weight: 700;
         font-size: 30px;
         font-family: Roboto Slab;
-        margin: 30px 0 0 0px;
+        margin: 30px 0 10px 0px;
     }
 
-    .description-7 p {
+    .facebook {
+        width: 40px;
+    }
+
+    .description-info p {
         width: 30vw;
     }
 
-    .seven-small-title{    
-        font-size: 28px;
+    .info-title{    
+        font-size: 30px;
     }
     
-    .seven-small-txt{
-        font-size: 20px;
+    .info-txt{
+        font-size: 23px;
     }
 
     .contacts{
         margin-left: 0px;
         margin-top: 50px;
+    }
+
+    .contact p {
+        font-size: 28px;
+    }
+
+    .media {
+        margin: 50px 0 30px 0;
+    }
+
+    .media img {
+        width: 5vw;
+    }
+
+    .bottom {
+        font-size: 23px;
     }
 }
 /* #endregion */
