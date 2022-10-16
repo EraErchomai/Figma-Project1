@@ -570,12 +570,13 @@ h2 {
     .course-texts{
         display: flex;        
         flex-wrap: wrap;
+        justify-content: flex-start;
         margin-top: 0px;
-        margin-left: 0px;      
+        margin-left: 0px;     
     }    
 
     .course-bottom p{
-        width: 20vw;
+        width: 30vw;
     }
 
     .course-title{       
@@ -586,6 +587,8 @@ h2 {
     .course-txt{
         margin: 0px;
         font-size: 23px; 
+        margin-bottom: 20px;
+        margin-right: 20px;
     }
 
     .format{
